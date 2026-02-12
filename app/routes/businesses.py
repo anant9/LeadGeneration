@@ -6,7 +6,6 @@ from sqlalchemy.orm import Session
 from app.config import settings
 from app.schemas.business import BusinessSearch, SearchResultsResponse, BusinessResponse
 from app.services.google_maps_service import GoogleMapsService
-from app.utils.ip_rate_limiter import enforce_ip_daily_limit
 from app.utils.auth import get_optional_user
 from app.db.session import get_db
 from app.db import models
@@ -28,7 +27,6 @@ def _resolve_max_results(user: Optional[models.User], max_results: Optional[int]
 @router.post("/search", response_model=SearchResultsResponse)
 async def search_businesses(
     search_query: BusinessSearch,
-    _rl=Depends(enforce_ip_daily_limit),
     user: Optional[models.User] = Depends(get_optional_user),
     db: Session = Depends(get_db),
 ):
@@ -88,7 +86,6 @@ async def search_by_address(
     business_type: str = Query(..., description="Type of business to search for"),
     radius: Optional[int] = Query(5000, description="Search radius in meters"),
     max_results: Optional[int] = Query(50, description="Maximum number of results"),
-    _rl=Depends(enforce_ip_daily_limit),
     user: Optional[models.User] = Depends(get_optional_user),
     db: Session = Depends(get_db),
 ):
@@ -154,7 +151,6 @@ async def search_by_address(
 async def search_natural_language(
     query: str = Query(..., description="Natural language search query (e.g., 'cafe in new york city')"),
     max_results: Optional[int] = Query(50, description="Maximum number of results"),
-    _rl=Depends(enforce_ip_daily_limit),
     user: Optional[models.User] = Depends(get_optional_user),
     db: Session = Depends(get_db),
 ):

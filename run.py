@@ -68,19 +68,7 @@ if __name__ == "__main__":
     print("🚀 LEAD GENERATION PLATFORM - Starting Services")
     print("=" * 70)
     
-    # Check if frontend directory exists
-    if not os.path.exists(frontend_dir):
-        print("❌ ERROR: saa-s-dashboard-ui/ directory not found!")
-        print(f"   Expected at: {frontend_dir}")
-        sys.exit(1)
-    
-    # Check if frontend dependencies are installed
-    if not os.path.exists(os.path.join(frontend_dir, "node_modules")):
-        print("⚠️  WARNING: Frontend dependencies not installed yet!")
-        print("    Run 'cd saa-s-dashboard-ui && npm install' first")
-        response = input("\nContinue anyway? (y/n): ").strip().lower()
-        if response != 'y':
-            sys.exit(0)
+    # Frontend startup disabled; keep backend-only runner
     
     # Start FastAPI Backend
     print("\n📌 Starting FastAPI Backend...")
@@ -114,49 +102,19 @@ if __name__ == "__main__":
         print("   3. Google Maps API not configured - Set GOOGLE_MAPS_API_KEY in .env")
         sys.exit(1)
     
-    # Start Next.js Frontend
-    print("\n📌 Starting Next.js Frontend...")
-    print("   📍 http://localhost:3000")
-    print("   🎨 Source: saa-s-dashboard-ui/")
-    
-    # Build command based on platform
-    if platform.system() == "Windows":
-        # Use shell on Windows to avoid PowerShell execution policy issues
-        frontend_cmd = "npm run dev"
-        frontend_process = subprocess.Popen(
-            frontend_cmd,
-            cwd=frontend_dir,
-            shell=True
-        )
-    else:
-        # Use direct npm on Unix-like systems
-        frontend_process = subprocess.Popen(
-            ["npm", "run", "dev"],
-            cwd=frontend_dir
-        )
-    
-    # Wait for frontend to start
-    time.sleep(4)
-    
-    if frontend_process.poll() is not None:
-        print("❌ Frontend failed to start!")
-        print("   Possible causes:")
-        print("   1. npm is not installed - Download from https://nodejs.org/")
-        print("   2. node_modules not installed - Run: cd saa-s-dashboard-ui && npm install")
-        print("   3. Port 3000 already in use - Kill the process or use different port")
-        sys.exit(1)
+    # Frontend startup disabled
     
     print("\n" + "=" * 70)
     print("✅ ALL SERVICES STARTED SUCCESSFULLY!")
     print("=" * 70)
     print("\n📋 Available URLs:")
-    print("   • Frontend:    http://localhost:3000")
+    print("   • Frontend:    (not started by run.py)")
     print("   • Backend:     http://localhost:8000")
     print("   • API Docs:    http://localhost:8000/docs")
     print("   • ReDoc:       http://localhost:8000/redoc")
     print("\n💡 Tips:")
     print("   • Press Ctrl+C to stop all services")
-    print("   • Frontend changes auto-reload")
+    print("   • Frontend changes auto-reload (if started separately)")
     print("   • Backend changes auto-reload")
     print("   • Check individual terminals for detailed logs")
     print("\n" + "=" * 70 + "\n")
@@ -170,7 +128,7 @@ if __name__ == "__main__":
                 cleanup_processes()
                 sys.exit(1)
             
-            if frontend_process.poll() is not None:
+            if frontend_process and frontend_process.poll() is not None:
                 print("❌ Frontend process crashed!")
                 cleanup_processes()
                 sys.exit(1)
