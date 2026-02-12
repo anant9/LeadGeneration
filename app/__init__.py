@@ -1,0 +1,1 @@
+"""Lead Generation FastAPI Application"""

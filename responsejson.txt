@@ -1,0 +1,2293 @@
+{
+  "total_results": 5,
+  "results": [
+    {
+      "name": "Kaffee Momente Berlin - Café Berlin",
+      "address": "Bötzowstraße 21, 10407 Berlin, Germany",
+      "latitude": 52.530988699999995,
+      "longitude": 13.432951,
+      "business_type": "coffee_shop",
+      "phone": "+49 1573 2192174",
+      "website": "https://kaffee-momente.eatbu.com/?lang=de",
+      "rating": 4.9,
+      "review_count": 968,
+      "place_id": "ChIJM1oDX6VPqEcR62STb2jLJDo",
+      "opening_hours": null,
+      "business_status": "OPERATIONAL",
+      "editorial_summary": null,
+      "reviews": [
+        {
+          "name": "places/ChIJM1oDX6VPqEcR62STb2jLJDo/reviews/Ci9DQUlRQUNvZENodHljRjlvT2poRGNHRnZTVnBWUzB3emEzY3hVazh0Tm05bVdGRRAB",
+          "relativePublishTimeDescription": "a month ago",
+          "rating": 2,
+          "text": {
+            "text": "Unfortunately, the café did not meet our expectations. We waited an hour for a vegetable bagel — we probably wouldn’t have received it at all if we hadn’t reminded the staff. The place was busy, so we assumed this was a normal waiting time. However, the man simply forgot about our order. After we reminded him again, he brought the bagel within 5 minutes, which made the long wait feel completely pointless.\nWe were also the only ones who didn’t receive cutlery, while other tables had it. It was really exhausting.\nThe interior is very dark and poorly maintained (the plates were demaged, as well as walls). The decorations are somewhat tacky. I think it might be better in the summer when you can sit outside. Overall, it was a completely disappointing visit.",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Unfortunately, the café did not meet our expectations. We waited an hour for a vegetable bagel — we probably wouldn’t have received it at all if we hadn’t reminded the staff. The place was busy, so we assumed this was a normal waiting time. However, the man simply forgot about our order. After we reminded him again, he brought the bagel within 5 minutes, which made the long wait feel completely pointless.\nWe were also the only ones who didn’t receive cutlery, while other tables had it. It was really exhausting.\nThe interior is very dark and poorly maintained (the plates were demaged, as well as walls). The decorations are somewhat tacky. I think it might be better in the summer when you can sit outside. Overall, it was a completely disappointing visit.",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Weronika",
+            "uri": "https://www.google.com/maps/contrib/102218116102722601719/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWBKrNcvGs2T5zL-B5rNCxGseh6S682bkcFJ-UTg9V9E0SuBUw=s128-c0x00000000-cc-rp-mo-ba5"
+          },
+          "publishTime": "2026-01-01T19:47:04.748806787Z",
+          "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2poRGNHRnZTVnBWUzB3emEzY3hVazh0Tm05bVdGRRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2poRGNHRnZTVnBWUzB3emEzY3hVazh0Tm05bVdGRRAB!2m1!1s0x47a84fa55f035a33:0x3a24cb686f9364eb"
+        },
+        {
+          "name": "places/ChIJM1oDX6VPqEcR62STb2jLJDo/reviews/Ci9DQUlRQUNvZENodHljRjlvT2t0c1l6bDZNVU51ZUd4d2MxUTBMVzVZWldSWU5FRRAB",
+          "relativePublishTimeDescription": "6 months ago",
+          "rating": 5,
+          "text": {
+            "text": "Very nice and welcoming people, probably the nicest people me and my friends met in Germany. Food is unbelievably good, especially the bagels! You have seating outside and nice cozy tables inside. Highly recommend you stop by this cafe prices are also on point!",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Very nice and welcoming people, probably the nicest people me and my friends met in Germany. Food is unbelievably good, especially the bagels! You have seating outside and nice cozy tables inside. Highly recommend you stop by this cafe prices are also on point!",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "George",
+            "uri": "https://www.google.com/maps/contrib/116959740530694746182/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVjVFoyWBXm9BCVt7Q7Z4sy-9QdKVySUO8Nc3hmdPFJY-PyBngc=s128-c0x00000000-cc-rp-mo"
+          },
+          "publishTime": "2025-07-31T15:47:42.452426426Z",
+          "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2t0c1l6bDZNVU51ZUd4d2MxUTBMVzVZWldSWU5FRRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2t0c1l6bDZNVU51ZUd4d2MxUTBMVzVZWldSWU5FRRAB!2m1!1s0x47a84fa55f035a33:0x3a24cb686f9364eb"
+        },
+        {
+          "name": "places/ChIJM1oDX6VPqEcR62STb2jLJDo/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xsV05Xc3pkakpJVVc5eVpIZHpZemxrT0c4MGIwRRAB",
+          "relativePublishTimeDescription": "2 weeks ago",
+          "rating": 5,
+          "text": {
+            "text": "Came here for coffee and cake in the afternoon. Very nice and chill staff and tasty cake. Average prices. Would recommend.\n\nWe got a free piece of cake in return for a positive review, so we were kind of incentivized, but not in a pressuring way. I don’t have a problem with leaving a 5 star review",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Came here for coffee and cake in the afternoon. Very nice and chill staff and tasty cake. Average prices. Would recommend.\n\nWe got a free piece of cake in return for a positive review, so we were kind of incentivized, but not in a pressuring way. I don’t have a problem with leaving a 5 star review",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Sophie Z",
+            "uri": "https://www.google.com/maps/contrib/116733152096272040426/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLsDwqKs-0eLcqJ-YqktjYxHnwo1C7nn1KfPpJ1fw2fxN93Xw=s128-c0x00000000-cc-rp-mo-ba2"
+          },
+          "publishTime": "2026-01-21T15:54:41.744466837Z",
+          "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xsV05Xc3pkakpJVVc5eVpIZHpZemxrT0c4MGIwRRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xsV05Xc3pkakpJVVc5eVpIZHpZemxrT0c4MGIwRRAB!2m1!1s0x47a84fa55f035a33:0x3a24cb686f9364eb"
+        },
+        {
+          "name": "places/ChIJM1oDX6VPqEcR62STb2jLJDo/reviews/Ci9DQUlRQUNvZENodHljRjlvT2s5aloyZEpjVkJ1Wm14TVlqZE9RemRQVERobU1GRRAB",
+          "relativePublishTimeDescription": "5 months ago",
+          "rating": 5,
+          "text": {
+            "text": "Wonderful cafe, welcoming service, great bagels and coffee! I’ve been 4-5 times here and all weregood experiences, definitely recommended",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Wonderful cafe, welcoming service, great bagels and coffee! I’ve been 4-5 times here and all weregood experiences, definitely recommended",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Eylül Akar",
+            "uri": "https://www.google.com/maps/contrib/116989151479847101738/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUh8WG9DtQkw091QvjVjtiCtAgXiCCX5ZWRKoMz5Bq8LRtJfeTx=s128-c0x00000000-cc-rp-mo-ba5"
+          },
+          "publishTime": "2025-08-16T09:57:07.257979966Z",
+          "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2s5aloyZEpjVkJ1Wm14TVlqZE9RemRQVERobU1GRRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2s5aloyZEpjVkJ1Wm14TVlqZE9RemRQVERobU1GRRAB!2m1!1s0x47a84fa55f035a33:0x3a24cb686f9364eb"
+        },
+        {
+          "name": "places/ChIJM1oDX6VPqEcR62STb2jLJDo/reviews/Ci9DQUlRQUNvZENodHljRjlvT21Wd1lYSkpkaTFoUkVWUGNYSTRiM0IwVGpOYVlVRRAB",
+          "relativePublishTimeDescription": "2 weeks ago",
+          "rating": 5,
+          "text": {
+            "text": "Very nice and Cozy Place, I got a cacao which was really good! The service is very friendly and I felt very safe and happy :)\nAlso very good music in the background, which fits perfect for a warm day in a cafe ⭐️",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Very nice and Cozy Place, I got a cacao which was really good! The service is very friendly and I felt very safe and happy :)\nAlso very good music in the background, which fits perfect for a warm day in a cafe ⭐️",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Ciyan Block",
+            "uri": "https://www.google.com/maps/contrib/115401165353819716808/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJogb62sCATy_NHIFjr-WPEq1mePrk-_NxTRRS7PCcdNKRfGw=s128-c0x00000000-cc-rp-mo"
+          },
+          "publishTime": "2026-01-20T16:57:32.427061918Z",
+          "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT21Wd1lYSkpkaTFoUkVWUGNYSTRiM0IwVGpOYVlVRRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21Wd1lYSkpkaTFoUkVWUGNYSTRiM0IwVGpOYVlVRRAB!2m1!1s0x47a84fa55f035a33:0x3a24cb686f9364eb"
+        }
+      ],
+      "photos": [
+        {
+          "name": "places/ChIJM1oDX6VPqEcR62STb2jLJDo/photos/AcnlKN3-Xjh4bvIUUkD2qmCBYYkYsjDrDY4nTFkYxCpk_3-S_Q594U6RXbBS4N1LoyZ7TQf6qXJugYN4zuM_3ZZdybTtOyRWhEWbHphTTwXZl3nq3iWYUSwyskzgkJGFkrpKJwkzjn5PfMwB2Ln50txNScir-1GIXHq-CnLISmZKQK7oSGrDy2TghQ2H4_fkuJCfxU4aNdyW10NsaLVfXIVDbYx0ESEcIfL0Ep4RU2494IJsgvVhJuOVO81L4i_LO3ey-A25kuBTow5SHzPer8jv8M7PRJSakKe047wqM0ro9wEzCA",
+          "widthPx": 680,
+          "heightPx": 510,
+          "authorAttributions": [
+            {
+              "displayName": "Kaffee Momente Berlin - Café Berlin",
+              "uri": "https://maps.google.com/maps/contrib/116374031427935192776",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV6DCX0bcEMkGOOL10KNkeCQwopdE9z9G91pvEWcsciZRWWSPU=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipNnNP4IPVZi7bPS_bcdLV-qKRD99jCo6yUoiqEu&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNnNP4IPVZi7bPS_bcdLV-qKRD99jCo6yUoiqEu!2e10!4m2!3m1!1s0x47a84fa55f035a33:0x3a24cb686f9364eb"
+        },
+        {
+          "name": "places/ChIJM1oDX6VPqEcR62STb2jLJDo/photos/AcnlKN0u5jrTNm84QxN70bR6FFWCuhJ4HV6dLpRKypM6A18jxg8WpJ1i2__AjrSv84N5rMmrDItdyzapZTCbhQtyz1pqIY7MffI4DDtDAZvOkOH8JSWdpTwM6HtID5B4q3_gGbADFWv_yZqMYQcryBSaSOytA8Q2qQDYvFaz4tY1wISqrZ6DHIrkHFvkS-ZWHjux8p-3G1O8felPcPRbCPmfcPm7DTxh8oRlzA7mVaWnQ9m-lwJEKLaCPV4twsyh3_EJqupeJGuYCsvLNv-9qL7oFmieDbK0B-6MguYn_i3YjM58MQ",
+          "widthPx": 1200,
+          "heightPx": 1600,
+          "authorAttributions": [
+            {
+              "displayName": "Kaffee Momente Berlin - Café Berlin",
+              "uri": "https://maps.google.com/maps/contrib/116374031427935192776",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV6DCX0bcEMkGOOL10KNkeCQwopdE9z9G91pvEWcsciZRWWSPU=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipPKsCnd_QZEYfF6SXrsF_LACxSIY0UbL19yb0k8&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipPKsCnd_QZEYfF6SXrsF_LACxSIY0UbL19yb0k8!2e10!4m2!3m1!1s0x47a84fa55f035a33:0x3a24cb686f9364eb"
+        },
+        {
+          "name": "places/ChIJM1oDX6VPqEcR62STb2jLJDo/photos/AcnlKN0lDgibbwAQNXQM0CMJ8ZE9mkYFHUIUcvEXOOYJKL00Hd71WXsfoW_PH2_fkbTcntfrChbr6qjaWpvaD5trGrOmvnJ535HVDgCHwFCGPePs9F1wt_oFuxwcl3ZW0FBs7fiTvS6xWKcAH32REbFsAjGHk9Qe_I3xo0JimGObm05ERPw3DCoQiJ0Ez8MYWM8onp1Pqts0EY1SCdf4HrevUIlWUf3BobYiB06jOGJflrJEmDjBFgbWS5X6cVEwSXw4h-CXfbiGr1yAojha-rpL0a9uJD8ltMq2CEzWpLaebH0HzsFlXjywIwIPA_L96jMy_YpRV_rRwyjq9SdK4gVKGOhm-HV64UdYXY0NyOc4HgoGvAFSxWTpKk7SLmCMWa97jkxJ2ufi3RBlfPeek4Cuwx5MqbePddhgyLq4i8hpnGTrECX4Ush430a4rPZ17d-y",
+          "widthPx": 3024,
+          "heightPx": 4032,
+          "authorAttributions": [
+            {
+              "displayName": "Weronika",
+              "uri": "https://maps.google.com/maps/contrib/102218116102722601719",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWBKrNcvGs2T5zL-B5rNCxGseh6S682bkcFJ-UTg9V9E0SuBUw=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhBa80aIkpBl3_ExjagSq0Vg&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBa80aIkpBl3_ExjagSq0Vg!2e10!4m2!3m1!1s0x47a84fa55f035a33:0x3a24cb686f9364eb"
+        },
+        {
+          "name": "places/ChIJM1oDX6VPqEcR62STb2jLJDo/photos/AcnlKN3sJvgs02-gRqCIWXIDNEYlNwJeMRlyPrkX-W0IhC94BKHBffymf8kJruiRn1ZRlhqi72sdOxy2dSQDw3knsRhm0dJylArZoUWEImG8edVVA4hNzK7HBvAjcEO0yQNgBzhHNMjB9j-did67GH4lOjYrYeQgMgrGYxtHT92YVAwzTKkDtoWxz-tk0o07WOzOliyTAWj4kz7UrIV3twJ3Qmya4sezXa6amk-VSjPu_Yitj_XA53qvepeEWpKzW71N-vu3Nt8W-Vca-5oXUUjTmWSWRbZC2QoIhQGMf7I8w1NFSg",
+          "widthPx": 1200,
+          "heightPx": 1600,
+          "authorAttributions": [
+            {
+              "displayName": "Kaffee Momente Berlin - Café Berlin",
+              "uri": "https://maps.google.com/maps/contrib/116374031427935192776",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV6DCX0bcEMkGOOL10KNkeCQwopdE9z9G91pvEWcsciZRWWSPU=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipOmTpCeoQy12oiwnrBJtFJlBBU-avhWI5ifHQ2C&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipOmTpCeoQy12oiwnrBJtFJlBBU-avhWI5ifHQ2C!2e10!4m2!3m1!1s0x47a84fa55f035a33:0x3a24cb686f9364eb"
+        },
+        {
+          "name": "places/ChIJM1oDX6VPqEcR62STb2jLJDo/photos/AcnlKN2G85SH11P4FRkfHqDmF__pHcpTy22JW5pfpYkp3jBn94bnpSRYZP_sLpmVKU1d781okWcjDwMayYNe9rOqgjxvH4nSf05Ceq8tiKGXJzndtPIWwT_vqTHuAPku5mfDcv7d57VEdEwMTGw40rcB5zcN06phSqTHQ9jPdUq_H-4VjMb7R7GiP2Jwpu-GtVTekuKXYgP0aVrdcBE3TzJ_fLx95Gd5_Venb61KOf6LqXUEhcJ8kyXNj8kMwhSARLQ0l8lnkgY15k5CtbW07JRYI2bTSJV1OS_YW7HFvvShroNy904aDyviaiF4v06wTCuGRao93PaJJPB-jpJlAaP4ZVyeVj3fOAZzD3SvNZaqKuXc9Z8JugTFBNGK2zmlZyC6ud6NXwuzQh3rtsJYbFoy2FG2-ABzA0UDR3D9K3Rk7xM",
+          "widthPx": 4032,
+          "heightPx": 3024,
+          "authorAttributions": [
+            {
+              "displayName": "Jim Panse",
+              "uri": "https://maps.google.com/maps/contrib/102491284995234779752",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUzfiPoR2QWruDDdC34bQJ6X20m84rU34iMQ9TUyZz5sxHkJ2Q=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgIC_wO-IHA&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC_wO-IHA!2e10!4m2!3m1!1s0x47a84fa55f035a33:0x3a24cb686f9364eb"
+        },
+        {
+          "name": "places/ChIJM1oDX6VPqEcR62STb2jLJDo/photos/AcnlKN2tanvDkn1xAK5nsWDwI9VAHZk1XCLlyhLRZGDJSbQ2sk_CfEZCaBDQYUuPRRZvtAuoQmBobE9v_qIJT70SBhprMDZnt1GZo_Ynfk64kd-AgV6QM4206pnrqbwoGcAdkx7goER5BvgV_QzGGqHoUa896YIXa5_RZy5o89yfaglUuhJgz8KwgvM7pCJzCfSv7GSFU5RIRKasFOxQbpiebkOBbYSESXz6tNHobfxHEpR4sDaJqPeuawluzxVSEOI94LNPhZgM9v4wElYXMm-0IedVRelXt2hzoA1l7_CVLWi1n8Z0X93miHSxAsfgOo8GbWc9MekF2zDhVOzTqWD7m-OBMyYPzj-Laesl5Ng7HyH8wX-jwqUf9fHQWLXb0nQ0waD14Vv5KX92NlAJNAGFzmAgyBYrjonSiVqjllKiE2D6ww",
+          "widthPx": 1180,
+          "heightPx": 1129,
+          "authorAttributions": [
+            {
+              "displayName": "Felipe",
+              "uri": "https://maps.google.com/maps/contrib/112445641360419697454",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXcst65Bs6ZdLLJvGWOH38nr3kw2SmR6eV7G2NguCVbO-pd-XcU6g=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgICj-cOwUw&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICj-cOwUw!2e10!4m2!3m1!1s0x47a84fa55f035a33:0x3a24cb686f9364eb"
+        },
+        {
+          "name": "places/ChIJM1oDX6VPqEcR62STb2jLJDo/photos/AcnlKN1MRJaf7Nil9lyOkl-MZ_AWKrd2hfmGjzkrtbjtt3c7FWc-49S95cbNhSJCQyZ_g8sSxwVit1lNaQZfEbA6zbNzS-LoLLxYGqMDSNvljWXiTY-un1J8L0PrVK7ImoNUrdFlKhWlAPUeq_H1Pda_NyWsRA2mcPZRiswNMF61NTpUUkPSEh6Q_7iwcr9aY4wBZP4y8IK3daPLYyUpJRQ0xayX_aVzKYV30gwqENJtPxI-zDVTz_gsKAoG_XErev5yiSxLNeYFdnt8AUV7rsMo9STFZOETR6bZnVVN6Mc9gcmo4BUXkM7rMTN88XVnshZYA4j5mfsRqEPYFotqEWXbHzQ92pUU_A6l27sfT3EcCPt6HZtIzTAFElDjuA3oI5hKdhZCSRnwYlaJqGSO-9WKqr0wBmMXuja4DUN4gxBqVGw85r8wm-RVOQ2cMunHxdES",
+          "widthPx": 3024,
+          "heightPx": 4032,
+          "authorAttributions": [
+            {
+              "displayName": "Eylül Akar",
+              "uri": "https://maps.google.com/maps/contrib/116989151479847101738",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUh8WG9DtQkw091QvjVjtiCtAgXiCCX5ZWRKoMz5Bq8LRtJfeTx=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhCQr35ofXlCsQjBRQJRQYcE&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCQr35ofXlCsQjBRQJRQYcE!2e10!4m2!3m1!1s0x47a84fa55f035a33:0x3a24cb686f9364eb"
+        },
+        {
+          "name": "places/ChIJM1oDX6VPqEcR62STb2jLJDo/photos/AcnlKN1RPTmSRFvRrX0Azqze_DboTLQmeMSFce5NLkb2pqPXuD4n_7rcZe5w6nsXAk_rTJz1rh1ARKCiAj882Gnlcdqudoe8ATImwAIuiV7ek-GGo-NrczfIJES2Y_86sIEGvfbXnXM5Z5DbATsEjLV43JtR4oyc-IbcySuBLn7UqugF82VAdcz9CcEby4sqaWI1USYrp_Gzq2gyU-_iINu1afRzHTuhvWIEtXleafmVY-i_dFiFlk8EaPXEdybDbld973FWEr0bpu3AqCm04p2_IPp3i4Lu9PiaEcKgF3bZjj1Ac7CxKprHAAIvzAhU8EkSazyzTP9R8DMiQcIvypnhGH9HbawQWc5dhv4ecO-2o-889dzXPz4QablgMdWsBP7TLcWHGPK4k0pCPi0Ncfm8EXFiW-uvd0WGB3bjAcSWh0Y1cQ",
+          "widthPx": 3024,
+          "heightPx": 4032,
+          "authorAttributions": [
+            {
+              "displayName": "Maria Muga",
+              "uri": "https://maps.google.com/maps/contrib/102308381103517339291",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXetM8Wp9o7yzWPK4XIno1aM3vZ_P1JT0N5wCqTb5Zwh_C5DN4D=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgIDfqIe8Fw&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDfqIe8Fw!2e10!4m2!3m1!1s0x47a84fa55f035a33:0x3a24cb686f9364eb"
+        },
+        {
+          "name": "places/ChIJM1oDX6VPqEcR62STb2jLJDo/photos/AcnlKN3an5jYOD7lQ-qbfLGvds6IVwDVjiNXjN_65QJRTnx0idrPexF0T_kllWTrMoJP9BFXH1VrMGgwjW-nENptvDjopY5awNRaU3ASJBrfzS5nen_hXCCm3Xr8A23PznjvLcSc4eZF2sTa6S3F61XvPz-tsPkpErTKhQIZbr6t9ZgISlz7Ni6g2fviQPDv2TN0DwXIcY9PfHvItjCEtU5wJdMGiEO4ThzVZQ7PpWn-6LK3fF3CAftSqd9ogM6J6Avg0mUJrhIV0JqQkzn9czQExj7JYE5Wnkiphx3nY5j5RH92kbcVsliZYKHGXxpSFdg9zeEmB9mtVQkEejt1QoJP8mohI1YccZWFVsagBS-4_jBYchCsCuIBfmhoRCXBF6_9IbECZzeyf-ef36AuUX39ClYJoOErqiq70a2D6eN-S-5vOw",
+          "widthPx": 3639,
+          "heightPx": 2564,
+          "authorAttributions": [
+            {
+              "displayName": "Valentina Monaco",
+              "uri": "https://maps.google.com/maps/contrib/112855311629471392931",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWVeKOvoowm42nckiG3dLQql3jVuTowSTlflTB_vty3ITKleftzcg=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgMCYysLmIg&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgMCYysLmIg!2e10!4m2!3m1!1s0x47a84fa55f035a33:0x3a24cb686f9364eb"
+        },
+        {
+          "name": "places/ChIJM1oDX6VPqEcR62STb2jLJDo/photos/AcnlKN09ve83MdzYL53e-agGmJHWsrngq1OGgmEF2niQ4tgpGOTjxYMmAO-AWs1cf2YffVo7PrI7iAYfuPHAPGO6eCP3-iqSMHufWsGZjTDcuSU170S4F6tM6sZi9xWMqobDvvD7Siw6naK0KJQ-P8333PaMU1KJTeUdm7Bu2iSkJCh7wMUi3N7vfmxg8rJXbh1A-Ag-XC2u1d1RczBhJWYElJQR0pcxyYOgBVNkib7eJror54Er0vVCyhI4ABgpPGYjsBlDzyp6yIEpgyi7bXfWACNqsQO41SNyLakoLajXhzsSmQM1h2e9GDEB88dvjyMuzztXNnU9sNtLITmjIBCBUiw_1G04sfcwSiep464dOY7wzJjw_fyagu_9oY-tfuyYjR7truI8m1Ynvf8OjDMXi2ENRB4XzdsG8NDjN3A8c8o34sFOeen47biiSgWcTpFX",
+          "widthPx": 4032,
+          "heightPx": 3024,
+          "authorAttributions": [
+            {
+              "displayName": "L S",
+              "uri": "https://maps.google.com/maps/contrib/113111500201844901654",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVtorIsguEXuPc3GKpMhOOgV5ey86OomPP3EEkK77TZhv_7iNzl=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhD5CmktqI0PFUlPfHxeCYOx&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhD5CmktqI0PFUlPfHxeCYOx!2e10!4m2!3m1!1s0x47a84fa55f035a33:0x3a24cb686f9364eb"
+        }
+      ],
+      "plus_code": {
+        "globalCode": "9F4MGCJM+95",
+        "compoundCode": "GCJM+95 Berlin, Germany"
+      },
+      "accessibility": {
+        "wheelchairAccessibleEntrance": true,
+        "wheelchairAccessibleSeating": true
+      },
+      "price_level": null,
+      "types": [
+        "coffee_shop",
+        "breakfast_restaurant",
+        "restaurant",
+        "cafe",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formatted_phone": null,
+      "current_opening_hours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 9,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 15
+              }
+            },
+            "close": {
+              "day": 0,
+              "hour": 18,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 15
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 9,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 9
+              }
+            },
+            "close": {
+              "day": 1,
+              "hour": 18,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 9
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 9,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 10
+              }
+            },
+            "close": {
+              "day": 2,
+              "hour": 18,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 10
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 9,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 11
+              }
+            },
+            "close": {
+              "day": 3,
+              "hour": 18,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 11
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 9,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 12
+              }
+            },
+            "close": {
+              "day": 4,
+              "hour": 18,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 12
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 9,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 13
+              }
+            },
+            "close": {
+              "day": 5,
+              "hour": 18,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 13
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 9,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 14
+              }
+            },
+            "close": {
+              "day": 6,
+              "hour": 18,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 14
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 9:00 AM – 6:00 PM",
+          "Tuesday: 9:00 AM – 6:00 PM",
+          "Wednesday: 9:00 AM – 6:00 PM",
+          "Thursday: 9:00 AM – 6:00 PM",
+          "Friday: 9:00 AM – 6:00 PM",
+          "Saturday: 9:00 AM – 6:00 PM",
+          "Sunday: 9:00 AM – 6:00 PM"
+        ],
+        "nextCloseTime": "2026-02-09T17:00:00Z"
+      }
+    },
+    {
+      "name": "The Rabbit Café",
+      "address": "Strelitzer Str. 62, 10115 Berlin, Germany",
+      "latitude": 52.5354019,
+      "longitude": 13.3948757,
+      "business_type": "cafe",
+      "phone": "+49 30 44032823",
+      "website": "https://www.instagram.com/therabbitcafeberlin/",
+      "rating": 4.8,
+      "review_count": 1114,
+      "place_id": "ChIJZ-mfs_FRqEcRcsGXh23NGnI",
+      "opening_hours": null,
+      "business_status": "OPERATIONAL",
+      "editorial_summary": {
+        "text": "Charming coffee house & plant shop with a diverse menu of Asian & Western nibbles.",
+        "languageCode": "en"
+      },
+      "reviews": [
+        {
+          "name": "places/ChIJZ-mfs_FRqEcRcsGXh23NGnI/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xjNFJFcGpaMDVuU1ZWV04yb3paRXBpUmpsR05tYxAB",
+          "relativePublishTimeDescription": "2 weeks ago",
+          "rating": 5,
+          "text": {
+            "text": "Best egg sandwich ever! I stopped by to have one of the famous egg sandwiches and it was delicious. I ordered it with salmon as an extra (for 3€ more). The spicy mayonnaise was perfect and all the flavors work together really well. The brioche is delicious. I highly recommend having one too. The café was full but had space outside as well. They have a very nice and friendly atmosphere, with helpful staff. You have to order at the counter and pay before going back to your table. A waiter brings your order in when it’s done.",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Best egg sandwich ever! I stopped by to have one of the famous egg sandwiches and it was delicious. I ordered it with salmon as an extra (for 3€ more). The spicy mayonnaise was perfect and all the flavors work together really well. The brioche is delicious. I highly recommend having one too. The café was full but had space outside as well. They have a very nice and friendly atmosphere, with helpful staff. You have to order at the counter and pay before going back to your table. A waiter brings your order in when it’s done.",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Alexa Carlos",
+            "uri": "https://www.google.com/maps/contrib/100012224763397063815/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWdCPYMT1EZknYRFD3Li2RpSOKUy3FZqUX_X33ChNvTAA0jAJbI=s128-c0x00000000-cc-rp-mo-ba5"
+          },
+          "publishTime": "2026-01-20T17:42:12.711471998Z",
+          "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xjNFJFcGpaMDVuU1ZWV04yb3paRXBpUmpsR05tYxAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xjNFJFcGpaMDVuU1ZWV04yb3paRXBpUmpsR05tYxAB!2m1!1s0x47a851f1b39fe967:0x721acd6d8797c172"
+        },
+        {
+          "name": "places/ChIJZ-mfs_FRqEcRcsGXh23NGnI/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pOMFYwZ3djVlp4UVRGWFprWTJTVGwxVXkxemNXYxAB",
+          "relativePublishTimeDescription": "a month ago",
+          "rating": 5,
+          "text": {
+            "text": "Such a nice restaurant in Berlin Mitte.\nIt’s the first restaurant that I found you can scan the code to order and also pay directly with code you scanned. Which means you don’t need to go to the counter to pay. After you order and pay, just wait for your food, they will deliver it to you.\nBesides, the explanation and introduction about each dish is quite clear and easy to read online, you will understand what’s inside the dish. That’s easy and awesome, you actually don’t need to ask too much information with the staffs.\nThe Rabbit egg sandwich is nice, the toast is soft and fluffy, contains salmon jam inside, I like it, you can smell the bread and milk smell from the dish. Coffee is fine, not that good but also good.\nRamen is good too.\nThe price is acceptable, you can it from the pics I post. I arrived there at around 11:30, queued for around 10 mins. The table and space is not that big, it’s bit crowded inside.\nBut overall rating I will give 4.75.",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Such a nice restaurant in Berlin Mitte.\nIt’s the first restaurant that I found you can scan the code to order and also pay directly with code you scanned. Which means you don’t need to go to the counter to pay. After you order and pay, just wait for your food, they will deliver it to you.\nBesides, the explanation and introduction about each dish is quite clear and easy to read online, you will understand what’s inside the dish. That’s easy and awesome, you actually don’t need to ask too much information with the staffs.\nThe Rabbit egg sandwich is nice, the toast is soft and fluffy, contains salmon jam inside, I like it, you can smell the bread and milk smell from the dish. Coffee is fine, not that good but also good.\nRamen is good too.\nThe price is acceptable, you can it from the pics I post. I arrived there at around 11:30, queued for around 10 mins. The table and space is not that big, it’s bit crowded inside.\nBut overall rating I will give 4.75.",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Yuyang Peng",
+            "uri": "https://www.google.com/maps/contrib/101761156477364185350/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJPoQOGvOEUMmiBQtob-UJ6cOOzVqQVIbh-AJi2xn9SG5ImGSA=s128-c0x00000000-cc-rp-mo-ba4"
+          },
+          "publishTime": "2025-12-18T19:56:18.975247497Z",
+          "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2pOMFYwZ3djVlp4UVRGWFprWTJTVGwxVXkxemNXYxAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2pOMFYwZ3djVlp4UVRGWFprWTJTVGwxVXkxemNXYxAB!2m1!1s0x47a851f1b39fe967:0x721acd6d8797c172"
+        },
+        {
+          "name": "places/ChIJZ-mfs_FRqEcRcsGXh23NGnI/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xrM2NubFFWRm8zVUVoRVMwZHBkMWQzT1ZwdWVuYxAB",
+          "relativePublishTimeDescription": "3 months ago",
+          "rating": 5,
+          "text": {
+            "text": "Really loved this place!\nCozy vibe, friendly staff, and everything we tried tasted fresh and well made.\n\nThe avocado croissant was soft and fresh, the egg brioche sandwich was packed with flavor, and the Lotus cheesecake dangerously good :)\n\nYou can tell they actually care about what they serve here. Definitely a place I’d come back to.",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Really loved this place!\nCozy vibe, friendly staff, and everything we tried tasted fresh and well made.\n\nThe avocado croissant was soft and fresh, the egg brioche sandwich was packed with flavor, and the Lotus cheesecake dangerously good :)\n\nYou can tell they actually care about what they serve here. Definitely a place I’d come back to.",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Or Ben-Porath",
+            "uri": "https://www.google.com/maps/contrib/106230773347094546855/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVHXwjrgAuluE8jpB3nesE7z45NO1KEErC8mCsdaWJwswB-gTQmqw=s128-c0x00000000-cc-rp-mo-ba4"
+          },
+          "publishTime": "2025-10-13T08:51:21.705620600Z",
+          "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xrM2NubFFWRm8zVUVoRVMwZHBkMWQzT1ZwdWVuYxAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xrM2NubFFWRm8zVUVoRVMwZHBkMWQzT1ZwdWVuYxAB!2m1!1s0x47a851f1b39fe967:0x721acd6d8797c172"
+        },
+        {
+          "name": "places/ChIJZ-mfs_FRqEcRcsGXh23NGnI/reviews/Ci9DQUlRQUNvZENodHljRjlvT21ReFRVWlZTM1p1VTBWclgyTlNhRTlWWWxKRFJsRRAB",
+          "relativePublishTimeDescription": "3 months ago",
+          "rating": 5,
+          "text": {
+            "text": "The best cafe in Berlin? We definitely had a great time. Luxurious food, excellent and quick customer service, comfortable atmosphere. Accommodating for our backpacks too. Highly recommend!",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "The best cafe in Berlin? We definitely had a great time. Luxurious food, excellent and quick customer service, comfortable atmosphere. Accommodating for our backpacks too. Highly recommend!",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Callum Taylor",
+            "uri": "https://www.google.com/maps/contrib/104788514986046064873/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXU2D-SSuZgRATNCDzW9xalQbJSjxrYw2yHNEDjF49W3t5DI200=s128-c0x00000000-cc-rp-mo-ba3"
+          },
+          "publishTime": "2025-10-12T12:00:51.012802306Z",
+          "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT21ReFRVWlZTM1p1VTBWclgyTlNhRTlWWWxKRFJsRRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21ReFRVWlZTM1p1VTBWclgyTlNhRTlWWWxKRFJsRRAB!2m1!1s0x47a851f1b39fe967:0x721acd6d8797c172"
+        },
+        {
+          "name": "places/ChIJZ-mfs_FRqEcRcsGXh23NGnI/reviews/Ci9DQUlRQUNvZENodHljRjlvT21nMlYzVmhUM2RKYjJscGVtMXJjMTlCZFdFeFFXYxAB",
+          "relativePublishTimeDescription": "a week ago",
+          "rating": 5,
+          "text": {
+            "text": "Very nice and cozy cafe. I got the Rabbit Drop Egg Sandwich which was really good. Service was exceptional, staff were very polite and the overall atmosphere felt very welcoming. Would definitely return if I’m ever back in Berlin :)",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Very nice and cozy cafe. I got the Rabbit Drop Egg Sandwich which was really good. Service was exceptional, staff were very polite and the overall atmosphere felt very welcoming. Would definitely return if I’m ever back in Berlin :)",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Zakaria Ait Mekideche",
+            "uri": "https://www.google.com/maps/contrib/118026682818199718803/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWYPOLJooqogc9pBGwHYI3-aLOKwxqx_f0Vb8zJftx1dZihBfjh=s128-c0x00000000-cc-rp-mo"
+          },
+          "publishTime": "2026-01-31T14:15:59.448601872Z",
+          "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT21nMlYzVmhUM2RKYjJscGVtMXJjMTlCZFdFeFFXYxAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21nMlYzVmhUM2RKYjJscGVtMXJjMTlCZFdFeFFXYxAB!2m1!1s0x47a851f1b39fe967:0x721acd6d8797c172"
+        }
+      ],
+      "photos": [
+        {
+          "name": "places/ChIJZ-mfs_FRqEcRcsGXh23NGnI/photos/AcnlKN0WFhnmeWv3leBLluylwMixOl5YYOKKLXE6WJrAIguEg5zXDz0zLYx6HmbgDHeRUPiUdkasjzzVeSAslO3LpX35DJS4CF7fffUSBJXNiITVtpT9fKZW4S6xeeCg2X1CQPzq4DzFayT-unG6Lp4NJKqkSRUb9aCDvN5eX420Ek9mkcWwa_Hf-5jYqcXZqq_8ynfnGPT7JHCL4J_u6vC6lTMZw6GHk5BMHDk5-lJ6DaVpqpHkiwFFUSQB8Vf1CoAHjdRMoWm8Rbmu9V1ejLxORLmU26i5-q0acgVccJl9K7-enw",
+          "widthPx": 1512,
+          "heightPx": 852,
+          "authorAttributions": [
+            {
+              "displayName": "The Rabbit Café",
+              "uri": "https://maps.google.com/maps/contrib/109095879760445450893",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWkKM-jDDelBLyrpjoJAgOqawLtrNubBSxiGgKi1H-I6UDwgpTE=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipO_Eji-YAAZepVSQQYW24bZBiuCUo-5Zz-NP07N&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipO_Eji-YAAZepVSQQYW24bZBiuCUo-5Zz-NP07N!2e10!4m2!3m1!1s0x47a851f1b39fe967:0x721acd6d8797c172"
+        },
+        {
+          "name": "places/ChIJZ-mfs_FRqEcRcsGXh23NGnI/photos/AcnlKN0IBuU7wckvCS_ATmqiERxQ3d3T5YoKa-SDJDn-ZbRiGNv2warlGCnq2wtusNVQ2DOZ1fN62pUKmjH5k4bO4S34jpbTff5u0lpeF1OdFStQ67E9MBhf1w3bl7LdNwr5dNm_hLTdIUUXhF21YNc28ewNv2rvrsxuCW_vvthdUfP69ot0rlWU7979wmGfdju1HbnHliPQly9dDbS6PxssxHZtbEiCFlh-Wb3hjqBmveehxZCwzQfARmt7MCKLcEWLrxtJej2f9okBjJToaH9bHGCUefLpnaV6rB-ufJYViDrCVQ",
+          "widthPx": 2400,
+          "heightPx": 3000,
+          "authorAttributions": [
+            {
+              "displayName": "The Rabbit Café",
+              "uri": "https://maps.google.com/maps/contrib/109095879760445450893",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWkKM-jDDelBLyrpjoJAgOqawLtrNubBSxiGgKi1H-I6UDwgpTE=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipMv4mvwpQGV3F3N9CofOw98Mrj6cxy0knO8TlWZ&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipMv4mvwpQGV3F3N9CofOw98Mrj6cxy0knO8TlWZ!2e10!4m2!3m1!1s0x47a851f1b39fe967:0x721acd6d8797c172"
+        },
+        {
+          "name": "places/ChIJZ-mfs_FRqEcRcsGXh23NGnI/photos/AcnlKN1w3o9jDdIAuGduV7_HOelTl2yo432uTfUKHlIQH5myvEdOSLJqAqmro1EvTFCaRxl9RdijN9kXmw6inxxjLTAZKRs6Af3_FhjXby4KMvcRToqx6tmm67jf60lNBThwvAtG8e0yRWfVzTJVvryu1T2SdTVoe1S3TL-CKqkjN1xUk9-78YHPNjd9k7mTEENhUsTpXcz1jQvUHM7SWsTCeeQ3pZC0DVzuAFBaB8c8twjkLguNwnEEQXQ-TCqtDAVYKk3SsSTNQJ5LuLVfHIEmm7hhPIymRhwNjL9APTPyQ1p3DaxJOsO-EPRjWp9I0AJs03UyX3ReP4KegiGeYSVkT89EyCvYHf7DqBN5uALmgOIW00hsiVwiXqDuE1JxQAYADgcJ8gt1XniuulNZq3rK-36F8wSFmpGEtmzrt_o0iO_bGuDYOBcdWD_9qRUt-Hrc",
+          "widthPx": 3600,
+          "heightPx": 4800,
+          "authorAttributions": [
+            {
+              "displayName": "Alex",
+              "uri": "https://maps.google.com/maps/contrib/110259903914651213084",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJOBMm70QPmN9emVL8yTtbU9Iau0DlpUQOAr9J56vEPri2psQ=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhAFMcieJyJpe9bHPcosugDR&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAFMcieJyJpe9bHPcosugDR!2e10!4m2!3m1!1s0x47a851f1b39fe967:0x721acd6d8797c172"
+        },
+        {
+          "name": "places/ChIJZ-mfs_FRqEcRcsGXh23NGnI/photos/AcnlKN2LDyOD1k1nvZgBNY2GzGv1OupEYP4OkXO0o1xXcroeJw-wqga8pLj40DDHK99MQHs0IsZJY4b4rP16DGrNWc1I87hO-9k5Ea1EuimoJYRD0vLuDLbvwfYEmx3wX8GiK322VyTQsqfTOBJgZXhRElAqF7HlOxierQ51Eit1XGgRUUuuYY8CjAFEvbWtHUmVNlG6yqBfcGDGfIzbqdl7cHfvzoq0pHaMRt7bhoTYye-f65Uj8W13opUZnomEGGGjbVhlSmf4hQBmA5YJItUVk1yd4CluYOz-46cjxHu4qGYw6g",
+          "widthPx": 1080,
+          "heightPx": 1350,
+          "authorAttributions": [
+            {
+              "displayName": "The Rabbit Café",
+              "uri": "https://maps.google.com/maps/contrib/109095879760445450893",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWkKM-jDDelBLyrpjoJAgOqawLtrNubBSxiGgKi1H-I6UDwgpTE=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipODLqivKV4z_zh6aDf3Li8_2XVFjWEAP141Eq7U&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipODLqivKV4z_zh6aDf3Li8_2XVFjWEAP141Eq7U!2e10!4m2!3m1!1s0x47a851f1b39fe967:0x721acd6d8797c172"
+        },
+        {
+          "name": "places/ChIJZ-mfs_FRqEcRcsGXh23NGnI/photos/AcnlKN37jedhkq4dcWzN6LpBljCfhjdSLT6GrOl5NAmPdRCZ-bJvklnAV1hGtOW_O5XFC_I-wT9N6pUvLvrI41KTAO77dG34HlB6nlB-vXV0AZKc-nXADvK8FyFOIFp9ziTfaQoupa3ohM-N4ECyQ1i7m3l3l1QKnWVGTqP3ZRfxnws0JZkq9uqGlKtf11XC84BV9w_5ZB0xFfOFh1omizRkEVYPOygq388nzNOYQzoDbTMMXCXsDXRdDZLpcULN1xxplhLzmgkOMxx6OORLzBGhmf7Xpzi5p9VOBzY0cCXWQzGyL4NjhlBl7tkA7FJTmsHUlqQQWmE74APMos5nhzwHIx22UGgDmVuckFDw53d8j6syicAronXl3vnmVt2unU2JM0fhDOntRBm0xkXXquflocIUks2LkqELGN8hid9xcWlM3ifxeypWnPqg7XPlJ8KL",
+          "widthPx": 3024,
+          "heightPx": 4032,
+          "authorAttributions": [
+            {
+              "displayName": "Lorenza Proia",
+              "uri": "https://maps.google.com/maps/contrib/104199356337010068388",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLqEi9G1N_ovrZXZXlfTtcXVrMHjp7Upzwc87q9E4n3_sQsJg=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhDei63J8XBRq5AuvTR0uC8l&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDei63J8XBRq5AuvTR0uC8l!2e10!4m2!3m1!1s0x47a851f1b39fe967:0x721acd6d8797c172"
+        },
+        {
+          "name": "places/ChIJZ-mfs_FRqEcRcsGXh23NGnI/photos/AcnlKN3psyJ0PyOiaQtNPLqFxtucHfW9NH9Pw7bQ7T3gYKpDuGaKVN1a1J6lFL4eFFy7JtbQheMznD6l6j_gRNj6QaIaW0mkNtOGCSxNrRTYUPHbYKElZ_38xchKTL8e4fJbEDVL8i9D9OYr36AbfikCL8fkKAK1ndDkQSeNx9qe7-AxfLIjqwS3Fw14EaHmE-A4GOkhdlOgQBjE70qENolFdKO6gQAi7EmQNmwnqR4mmR9Gas1eDUYir2RG93au3tEgfqrWMSK1C4htOsygBURtr42jLFYffniWNocqAo38t3VWPXl-Mv-3hOHQnPFwGbYdWGUukN4dSuJaRBEzsLGUqUwQqNXVqaicblTmCCJvDGaYwj-JujiHgHUHG06FLxi6zOap04Xc36ZEpS8TWWHwGWJnSsjxKq21JCAVcbXzk6d0i2mmEIhmWe_H6-Np2w",
+          "widthPx": 4032,
+          "heightPx": 3024,
+          "authorAttributions": [
+            {
+              "displayName": "Jakob W. Plummer",
+              "uri": "https://maps.google.com/maps/contrib/106937471073926317181",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV9gzntRR_w3KmKRjD174LmJjDsZL5XLi2qYTtxleDh4TdVmyCB=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhDjr3xbFkiq8MNszbttwno8&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDjr3xbFkiq8MNszbttwno8!2e10!4m2!3m1!1s0x47a851f1b39fe967:0x721acd6d8797c172"
+        },
+        {
+          "name": "places/ChIJZ-mfs_FRqEcRcsGXh23NGnI/photos/AcnlKN1rhjWAgZZo2ilwkO_lj9L1vOKeTBk0--_VF0z8dlgOmP6rnpVUMl6ZmyxU4z546u3lf3IVeraKAXjiqFd3L3FyqPerBA7nlI_2CWq6pTAvdhW1AQ4Pr50V4dh5Jz1HQwK2bScrkJHLojKD17PDA0UnFHMeNv8tQ8HQ-dHlDYIDAcz0mkNd7SEUiIndqLkX5Dr6-PWT792HM6OC1l0ZNVO0Pn_Zy2t5u5LICrpZSGVJs5u9k8fBWgZcJ-KKVhzwHmVT4zjzUaXyhl5Dozw1JG-DFUCu7jbQeuwZ8Gifej42ng",
+          "widthPx": 1080,
+          "heightPx": 1350,
+          "authorAttributions": [
+            {
+              "displayName": "The Rabbit Café",
+              "uri": "https://maps.google.com/maps/contrib/109095879760445450893",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWkKM-jDDelBLyrpjoJAgOqawLtrNubBSxiGgKi1H-I6UDwgpTE=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipNx-jzwuSjAXw_Z8C8HoGa9jGgFTKK0cALl2dl3&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNx-jzwuSjAXw_Z8C8HoGa9jGgFTKK0cALl2dl3!2e10!4m2!3m1!1s0x47a851f1b39fe967:0x721acd6d8797c172"
+        },
+        {
+          "name": "places/ChIJZ-mfs_FRqEcRcsGXh23NGnI/photos/AcnlKN2FiYIww1_5GUb2YDcQGYU413OyVybPi-9HF1z9k910LAeWOA4nUvZZ1TVpgKqJK98sRjfE7Qiy2maKkyBaYstjodSoCLdgB09enc_UQWmmGgg0CTp8NLd9vfZIcDbKJv-nmSGKTuErpz2W8kuWJAIko_Jcis5iGjxrGB03uibMojaLpzXRCQJe4I00PaKWmhCx5CixNZufELeT29Zy6e9ghTFyb3AWwfBjqyseKXalYFx7b0M8e5t_1joT4Py_WyQiUzTlFtBc5Vc1bjh546PL3Ma72-8k9Scu9lu8bKsb_0ZTkNp7bAFLXWe_N0yL9bXusKmPGTAQ1ZXjbzdyrSGPc0lgtMVl5JtvLdT_M8VFeZhIEA0EdgpGt1b-7-BUUexKh-ob0XSbZRgcvytHwV69_rRWv-tYYwlWxQAdsZ4fIEv23J_bjJed0WqRkTPC",
+          "widthPx": 3060,
+          "heightPx": 4080,
+          "authorAttributions": [
+            {
+              "displayName": "east bln",
+              "uri": "https://maps.google.com/maps/contrib/111250093669878820536",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIOaYrT9u8IL1GLdnEJnfGJQSwhdLjoCPgOiq8TjJ7cuZMEDQ=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhCtzCsH0_xIIvLDo69-hRZR&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCtzCsH0_xIIvLDo69-hRZR!2e10!4m2!3m1!1s0x47a851f1b39fe967:0x721acd6d8797c172"
+        },
+        {
+          "name": "places/ChIJZ-mfs_FRqEcRcsGXh23NGnI/photos/AcnlKN1gvfZUcm3MbQO7OegHF3fteV99hObjVlTSBuMAec9gAKUxLP7-5fg47juxPBoXGv3OoDc2fUrQx1g7O0lI7QW8ae_7cSyKi_Md91lxVpOzJYlsL_VQZySA--21hk8cHzajQv9vT9C4w6E3_y3AUe6U8DcXMZiA1DxiNnEt-Eec-2oa1rSgBkGwZplqFXBC7xZa_TbG8f9I2yXl32U-smzRKGyr-fRtn4r7JQv8z4PbERB_MkDHStuZ9EHEP_BR2rlbBD2UyXa47mxuM4dJBeOrfURt-8YV51XO_o8HJ9HCSg",
+          "widthPx": 1080,
+          "heightPx": 1350,
+          "authorAttributions": [
+            {
+              "displayName": "The Rabbit Café",
+              "uri": "https://maps.google.com/maps/contrib/109095879760445450893",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWkKM-jDDelBLyrpjoJAgOqawLtrNubBSxiGgKi1H-I6UDwgpTE=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipPHs6uK7HkRsc1KqHUOYgAaE-Ot8CX-tAYZCfhZ&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipPHs6uK7HkRsc1KqHUOYgAaE-Ot8CX-tAYZCfhZ!2e10!4m2!3m1!1s0x47a851f1b39fe967:0x721acd6d8797c172"
+        },
+        {
+          "name": "places/ChIJZ-mfs_FRqEcRcsGXh23NGnI/photos/AcnlKN2XCc0FK8akO8e3IyMKlJgYmiaHnbGtEN9uVHky-u3VfuP9PYAIOwNn6RDeBq0Zt0-bN7N7M4bjC7LpfJyPjVgrBWWf8cLjNcprkjHMpEsYbXbQIRKArpj9X3XfVo-8YsqaDlGSJEw2Y3hKw0GYbHlwlFq69EQWi_Z5XRZ8nKXFIK1tN-BQT-5bnQRlli21veMFVqcUQYqaEOhUFF9Wf5eKA5SDvd4WzYtsxXLrsRvefLVaTLyoGiVHHl8gscWWsn4jD9XeFDF632uYG_-iMWhbXVxxifY6kyROTOlEFA7w9A",
+          "widthPx": 1080,
+          "heightPx": 1350,
+          "authorAttributions": [
+            {
+              "displayName": "The Rabbit Café",
+              "uri": "https://maps.google.com/maps/contrib/109095879760445450893",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWkKM-jDDelBLyrpjoJAgOqawLtrNubBSxiGgKi1H-I6UDwgpTE=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipPYqCoYLRmcW1jGDCPM2A0F6tcl2_okro_k43AD&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipPYqCoYLRmcW1jGDCPM2A0F6tcl2_okro_k43AD!2e10!4m2!3m1!1s0x47a851f1b39fe967:0x721acd6d8797c172"
+        }
+      ],
+      "plus_code": {
+        "globalCode": "9F4MG9PV+5X",
+        "compoundCode": "G9PV+5X Berlin, Germany"
+      },
+      "accessibility": {
+        "wheelchairAccessibleEntrance": true,
+        "wheelchairAccessibleRestroom": true,
+        "wheelchairAccessibleSeating": true
+      },
+      "price_level": null,
+      "types": [
+        "cafe",
+        "brunch_restaurant",
+        "breakfast_restaurant",
+        "restaurant",
+        "coffee_shop",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formatted_phone": null,
+      "current_opening_hours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 10,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 15
+              }
+            },
+            "close": {
+              "day": 0,
+              "hour": 18,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 15
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 9,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 9
+              }
+            },
+            "close": {
+              "day": 1,
+              "hour": 18,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 9
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 9,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 10
+              }
+            },
+            "close": {
+              "day": 2,
+              "hour": 18,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 10
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 9,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 11
+              }
+            },
+            "close": {
+              "day": 3,
+              "hour": 18,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 11
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 9,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 12
+              }
+            },
+            "close": {
+              "day": 4,
+              "hour": 18,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 12
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 9,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 13
+              }
+            },
+            "close": {
+              "day": 5,
+              "hour": 19,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 13
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 10,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 14
+              }
+            },
+            "close": {
+              "day": 6,
+              "hour": 19,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 14
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 9:00 AM – 6:00 PM",
+          "Tuesday: 9:00 AM – 6:00 PM",
+          "Wednesday: 9:00 AM – 6:00 PM",
+          "Thursday: 9:00 AM – 6:00 PM",
+          "Friday: 9:00 AM – 7:00 PM",
+          "Saturday: 10:00 AM – 7:00 PM",
+          "Sunday: 10:00 AM – 6:00 PM"
+        ],
+        "nextCloseTime": "2026-02-09T17:00:00Z"
+      }
+    },
+    {
+      "name": "YADA YADA \"breakfast club\"",
+      "address": "Köpenicker Str. 93, 10179 Berlin, Germany",
+      "latitude": 52.511762999999995,
+      "longitude": 13.413548299999999,
+      "business_type": "cafe",
+      "phone": "+49 1515 1889696",
+      "website": "http://www.yada-yada.de/",
+      "rating": 4.7,
+      "review_count": 1550,
+      "place_id": "ChIJd1daqSVOqEcRyetEfXh3V74",
+      "opening_hours": null,
+      "business_status": "OPERATIONAL",
+      "editorial_summary": {
+        "text": "Breakfast, sandwiches, salads, baked goods & smoothies are served all day in hip coffeehouse digs.",
+        "languageCode": "en"
+      },
+      "reviews": [
+        {
+          "name": "places/ChIJd1daqSVOqEcRyetEfXh3V74/reviews/Ci9DQUlRQUNvZENodHljRjlvT2tGMFJqZExSbnB0YjFGelRuRnNVV0poVFhKc01XYxAB",
+          "relativePublishTimeDescription": "a week ago",
+          "rating": 5,
+          "text": {
+            "text": "Wonderful place for a breakfast!\n\nI don’t usually drink coffee but i enjoyed it there soo much, mainly because it wasn’t so strong and i could taste a roasting aroma.\n\nI ordered eggs with suguc plus a cinnamon sugar pastry for desert to share.\n\nEggs portions is definitely more than enough. The taste was rich.\nThe only thing I DIDN’T like that it was soo heavy.\n\nThe pastry was delicious and soo soft 🤤\n\nMy partner had veggie Bagel and they seemed very satisfied with it, specially the taste of fresh avocados.\n\nAtmosphere is quite lovely… and although so much was going on, the service kept lovely attitude and serving quite quickly.\n\nI was also impressed by the interior design.. pleasing for the eye.\n\nDefinitely worth a visit.",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Wonderful place for a breakfast!\n\nI don’t usually drink coffee but i enjoyed it there soo much, mainly because it wasn’t so strong and i could taste a roasting aroma.\n\nI ordered eggs with suguc plus a cinnamon sugar pastry for desert to share.\n\nEggs portions is definitely more than enough. The taste was rich.\nThe only thing I DIDN’T like that it was soo heavy.\n\nThe pastry was delicious and soo soft 🤤\n\nMy partner had veggie Bagel and they seemed very satisfied with it, specially the taste of fresh avocados.\n\nAtmosphere is quite lovely… and although so much was going on, the service kept lovely attitude and serving quite quickly.\n\nI was also impressed by the interior design.. pleasing for the eye.\n\nDefinitely worth a visit.",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Sarya Shawa",
+            "uri": "https://www.google.com/maps/contrib/111597898074782822138/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUeBB0mGyae00O12knFPKNzhAhOfV9vXIUa_tK2DXOh5cWn95aokA=s128-c0x00000000-cc-rp-mo-ba3"
+          },
+          "publishTime": "2026-01-31T19:35:14.499085338Z",
+          "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2tGMFJqZExSbnB0YjFGelRuRnNVV0poVFhKc01XYxAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2tGMFJqZExSbnB0YjFGelRuRnNVV0poVFhKc01XYxAB!2m1!1s0x47a84e25a95a5777:0xbe5777787d44ebc9"
+        },
+        {
+          "name": "places/ChIJd1daqSVOqEcRyetEfXh3V74/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xRd09EbHBXVzVKWkcxUWJtZ3dWVXhEVDA1VlIxRRAB",
+          "relativePublishTimeDescription": "2 months ago",
+          "rating": 5,
+          "text": {
+            "text": "Excellent service and amazing food! Cozy vibe and ambiance too! We tried the Salmon avocado bagel, eggs with bacon and Salmon Pancakes. Everything was served fresh and tasted amazing!",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Excellent service and amazing food! Cozy vibe and ambiance too! We tried the Salmon avocado bagel, eggs with bacon and Salmon Pancakes. Everything was served fresh and tasted amazing!",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Eddie Perez",
+            "uri": "https://www.google.com/maps/contrib/113700307900309805087/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWYau671oHAri5XsSrKVczLvK2ckJvRDWiAXfEaHG1T5sYwx4cZ=s128-c0x00000000-cc-rp-mo-ba3"
+          },
+          "publishTime": "2025-11-26T10:04:13.834681198Z",
+          "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xRd09EbHBXVzVKWkcxUWJtZ3dWVXhEVDA1VlIxRRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xRd09EbHBXVzVKWkcxUWJtZ3dWVXhEVDA1VlIxRRAB!2m1!1s0x47a84e25a95a5777:0xbe5777787d44ebc9"
+        },
+        {
+          "name": "places/ChIJd1daqSVOqEcRyetEfXh3V74/reviews/Ci9DQUlRQUNvZENodHljRjlvT210bFdqTmhWemh6ZVZneFNFcFNUbkkyYVY5MlVGRRAB",
+          "relativePublishTimeDescription": "3 months ago",
+          "rating": 5,
+          "text": {
+            "text": "Great place for breakfast. Cool atmosphere and lovely staff who all were hard working and attentive to customers. Avo pancakes absolutely delicious, comes with scrambled eggs. Also has a selection of bagels. One ordered by customer at next table and it was beautifully presented.  They also have a jug of tap water for you to self serve. Something most eateries in Germany do not provide.  Even asking for tap water is treated with distain. Drinking bottled water in countries with clean tap water is not necessary and bad for the environment. The owner has developed a winning formula which has international appeal. Highly recommend this cafe for both breakfast and light lunch.",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Great place for breakfast. Cool atmosphere and lovely staff who all were hard working and attentive to customers. Avo pancakes absolutely delicious, comes with scrambled eggs. Also has a selection of bagels. One ordered by customer at next table and it was beautifully presented.  They also have a jug of tap water for you to self serve. Something most eateries in Germany do not provide.  Even asking for tap water is treated with distain. Drinking bottled water in countries with clean tap water is not necessary and bad for the environment. The owner has developed a winning formula which has international appeal. Highly recommend this cafe for both breakfast and light lunch.",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Jayne Crowley",
+            "uri": "https://www.google.com/maps/contrib/110410490669387164734/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJNN6fgTnwPwnLFNlSyrEuDX5N_4_lVV3vlrTHiWzrPHksmyw=s128-c0x00000000-cc-rp-mo-ba3"
+          },
+          "publishTime": "2025-10-15T17:34:14.104926044Z",
+          "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT210bFdqTmhWemh6ZVZneFNFcFNUbkkyYVY5MlVGRRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT210bFdqTmhWemh6ZVZneFNFcFNUbkkyYVY5MlVGRRAB!2m1!1s0x47a84e25a95a5777:0xbe5777787d44ebc9"
+        },
+        {
+          "name": "places/ChIJd1daqSVOqEcRyetEfXh3V74/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pKRVVqbDJjemhDTTFodFpVRkdRWFIyWTNSVmJXYxAB",
+          "relativePublishTimeDescription": "3 months ago",
+          "rating": 5,
+          "text": {
+            "text": "Coffee and bagels are delicious, but the carrot cake is out of this world! Everyone is super kind and welcoming and the atmosphere is cozy. It quickly became my favourite breakfast place. Really recommend!",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Coffee and bagels are delicious, but the carrot cake is out of this world! Everyone is super kind and welcoming and the atmosphere is cozy. It quickly became my favourite breakfast place. Really recommend!",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Agustina Coll",
+            "uri": "https://www.google.com/maps/contrib/105370011177059989916/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX3WgaJMj-aWktRNUImzYZ1qN_bXf8qRnk7FkzhTvW-YjeZHsLi4A=s128-c0x00000000-cc-rp-mo"
+          },
+          "publishTime": "2025-10-20T09:00:29.430292660Z",
+          "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2pKRVVqbDJjemhDTTFodFpVRkdRWFIyWTNSVmJXYxAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2pKRVVqbDJjemhDTTFodFpVRkdRWFIyWTNSVmJXYxAB!2m1!1s0x47a84e25a95a5777:0xbe5777787d44ebc9"
+        },
+        {
+          "name": "places/ChIJd1daqSVOqEcRyetEfXh3V74/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pKRU5uaFpNbkZEZUdWeFlWQndiakY2UlV4aFMzYxAB",
+          "relativePublishTimeDescription": "2 months ago",
+          "rating": 5,
+          "text": {
+            "text": "Pancke plates are amazing with lots of fruits, scramled egg plates are also very delicious and large size for a breakfast.",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Pancke plates are amazing with lots of fruits, scramled egg plates are also very delicious and large size for a breakfast.",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Melih MUMINOGLU",
+            "uri": "https://www.google.com/maps/contrib/108663144115564471950/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU_Vl10VwNQf2RHQuZwsbgI68bdbfJciDf3Ph33CWEatxUSMNpN=s128-c0x00000000-cc-rp-mo-ba3"
+          },
+          "publishTime": "2025-11-13T09:24:43.476384065Z",
+          "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2pKRU5uaFpNbkZEZUdWeFlWQndiakY2UlV4aFMzYxAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2pKRU5uaFpNbkZEZUdWeFlWQndiakY2UlV4aFMzYxAB!2m1!1s0x47a84e25a95a5777:0xbe5777787d44ebc9"
+        }
+      ],
+      "photos": [
+        {
+          "name": "places/ChIJd1daqSVOqEcRyetEfXh3V74/photos/AcnlKN2ol7u59wFB-LeluQ2OAy1pq7d5Al8rnzblP7hVfyhRx9yNEy51C4C6E2dIS3sUdV5mcjEkm_BA_PH5mXKGPvDE1SiKqqTKzMXEh_njKbsmMsvIXMFkLiRe_xcE38y6TkFv0Z5zCJves3gMzw5oFm5n9gK-jlx_72HvCd3Op4H0GwNgXAmnY1MFGSeka1Qc2_8a3fjSI6o3ciMDrqC6vV6lxKrnkaej77Vif58Zv4lLUmV7IpPhHvY1WMW79yC2HQzSbHxQECWRuFXBgWiODEcKq23u2Yytb39wFkjSasTxcw",
+          "widthPx": 960,
+          "heightPx": 1280,
+          "authorAttributions": [
+            {
+              "displayName": "YADA YADA \"breakfast club\"",
+              "uri": "https://maps.google.com/maps/contrib/106817987920277836565",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUy1r51KZ2MDM3c-OkzJsJxnGG6VVJM4FyobWWRB_HVkjst4oe-=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipOcg1dG8gVDvZcuejUWw-7JV7th03FdHmyu944A&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipOcg1dG8gVDvZcuejUWw-7JV7th03FdHmyu944A!2e10!4m2!3m1!1s0x47a84e25a95a5777:0xbe5777787d44ebc9"
+        },
+        {
+          "name": "places/ChIJd1daqSVOqEcRyetEfXh3V74/photos/AcnlKN3fBeNpp_jkE3eSXr5R4rrrEmIPP2KqUuUz_j7hEDJ7MeyVqiQ0F4rHz1RL_v1XCnZpGx2BdK7pLpjBQCnuszaakFnOZkn1qjdz2L2-r9Ie2Inync3Gve7to1jgM4ODtAO-k3yA4aasKzqqY1M5d5bsrHn7Q9yuwPL8jWIyzf7DxjHfUhNjUWC3mI_1BzreVtYcvwURKCCHqeoUk-TNhORJqhpT-IZHsUx0aa_qFFa4o5fSZ6r_2k87Bmgc94HPJH5DQDhgc0vg3gipyeC7I0SRJUNOMP48MNylAxM3iu-DEQ",
+          "widthPx": 3264,
+          "heightPx": 2445,
+          "authorAttributions": [
+            {
+              "displayName": "YADA YADA \"breakfast club\"",
+              "uri": "https://maps.google.com/maps/contrib/106817987920277836565",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUy1r51KZ2MDM3c-OkzJsJxnGG6VVJM4FyobWWRB_HVkjst4oe-=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipMcIxlIhlsRIe6G0Yg-9lOCCIudwxcNC15BXz9H&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipMcIxlIhlsRIe6G0Yg-9lOCCIudwxcNC15BXz9H!2e10!4m2!3m1!1s0x47a84e25a95a5777:0xbe5777787d44ebc9"
+        },
+        {
+          "name": "places/ChIJd1daqSVOqEcRyetEfXh3V74/photos/AcnlKN3RzxHWFZiwuyVP9yIjLvJcBUN-idLBtTYaP7qgpk9OfK8YX9Bnvu6HqzERR49A032WUmF7d_0Wyrl5HMpJ17K5E3cbF94u1OSwePU1qlay6OnPSuukf6DWzT8Fbim0T_AZ0_mmO10dMHd1BFJol8nf72L0H0_uAd2J1wJTKlrIVcrocj6ev7qLpX2aGY6NknOAbhCbyhYWLE68fKUjr9pDBWn7E8V-7L9ijoXs8oH2SAuCX1GcZ-WtZ250Zlf7fEbtzn7KvpzcR7iDnx00JvTpX1efnvqeOcSCE4_GBgc2MFozUaHmSfnW6RH87XcT4aAn8piXvxCs59nF8cGy_C6xFalaD0IfuC6zX5syUTsyzAuqnY18P-Isqkwi8P-Z_pT6zK5Y4K7nTxT_qtMcFeJ10ZDNQNfnpWX71PXznHLgytD5_lL4C5MqgXGM-R9e",
+          "widthPx": 4284,
+          "heightPx": 4284,
+          "authorAttributions": [
+            {
+              "displayName": "Muhammed Cil",
+              "uri": "https://maps.google.com/maps/contrib/115475293882088277537",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU_0YuS0lJtbHGr-tk3drJdjQE-dw9sbLF55uhFzLR2MbEUaGc=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhBimQeilsg7UA_IEadrkXFP&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBimQeilsg7UA_IEadrkXFP!2e10!4m2!3m1!1s0x47a84e25a95a5777:0xbe5777787d44ebc9"
+        },
+        {
+          "name": "places/ChIJd1daqSVOqEcRyetEfXh3V74/photos/AcnlKN0_KLf3dm9qsnXAf4S4eOs6nwjAx0KBP7k1-bVkh7OIuPNc9VA7rB5YyeKFtyIg3c5vF8BIN3pde3b45h3FMpDsgqbkWIFGdbL1-kUEGGbAJzhcaiTbcpQ78Kk9o-VMNd-ybQidMMmkQbnBQeQR6g81jMOQPuakI9n8PD03VCD4Efu3FnO0u-Rwaod8akMwncUMcouj4dRwXmXb_Ma3RFlFc-LuTMlkO3iRMfFSunxITm19FEfJWfpugViKwxFGbo9yjzdZOpV2DWDibHiYJuvlY1MNSMYuUNGZ6AqidfhZW07pZ-b43LuLJnKC4_5Lz_Yc3molxi43FPPuZ64r9vTqehgVXsaNxS8uvTAOwjEZMG5wYGvfci1TlwHeiJQbdFZvLdmBZTG4EwiitHP2YBWykfsCK-zDQTHIV49LvwN_2FDq6Da7casbsZwLwjrq",
+          "widthPx": 3600,
+          "heightPx": 4800,
+          "authorAttributions": [
+            {
+              "displayName": "Jasmin Köglmayr",
+              "uri": "https://maps.google.com/maps/contrib/107376327565073789801",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUfH4Jc5CYTm-PdjnDmEfzc0uSktV1Vk2VXoeJO920QB8znQR4=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhBCvmhq71fABHwiu5XE3-0j&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBCvmhq71fABHwiu5XE3-0j!2e10!4m2!3m1!1s0x47a84e25a95a5777:0xbe5777787d44ebc9"
+        },
+        {
+          "name": "places/ChIJd1daqSVOqEcRyetEfXh3V74/photos/AcnlKN1j4VFkphdS066Q62mJdgN4-3NaBt9iuFJlES1zPS8m5o84iy6ngXzy8BNdLTeBvIQ6SgCzQb9KO3cfS-9g9XGmlsJSp9NunOQxyOu6s95oi6lxO61ue3ZEyJ7wySDcfdLsxARkR8dQUfojvqn_NfCm7gKMe1-I7du7stYf_FF5Sg-X2OZutlrwHLsYMjwTsZCrP-umtTvv-5rkWhziE9SGU_3sn6a1vD65--tsmbNaJwxI-VwYDoYQNviu4vBxtpijNhk9Kz5FmdQ_-jwCWOs2qvzEjdSsjbdOZeqZgGQjKDhzV8UGNpmNGNWbUo7UHJ7h7tdEVKTWeDJJSZCxqtdlHxFn6GYCSDiFyYZ9Qp9QHgVFW7EeChN0UXd91tKzXXvGYc9JBe47gntpHyW3JoXnHRGx4Ed14QFhkFtQ2FW8Dhcyh_L5NVuIiK_ggvUa",
+          "widthPx": 3024,
+          "heightPx": 4032,
+          "authorAttributions": [
+            {
+              "displayName": "Mina S",
+              "uri": "https://maps.google.com/maps/contrib/110251915258937281097",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIfVfDGX1XIIKD8trHLKOz3DXfKkXcJ9qvtcRWCnjHW6M2LjqH3=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhC7hz72aCwcKCgYESd7C13i&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhC7hz72aCwcKCgYESd7C13i!2e10!4m2!3m1!1s0x47a84e25a95a5777:0xbe5777787d44ebc9"
+        },
+        {
+          "name": "places/ChIJd1daqSVOqEcRyetEfXh3V74/photos/AcnlKN3MxT9sOZRjzBN2EVPDd5FUNPWZpGTINfxZ_F4JWXMu-snf3i3civ44s0o94Wr8uOp-CZnv7SKoN4pD_fGOUGd5_-FDmmTMMTgTasjq62hueEaUTVQSxKCikkiCB1Zad-OelCxvHwOXmI3P6jFHalsLper8589sz8sqg_yS54sN0hPglyp1IYpbLXsgTMUalEV9b1jJPOllqLPd3bEXhIPbJpBJ4HF1rXdocWLiq9XZ4w7e3It3uDUvxQWVxPZjvD2neg3vln9kOgUd742fGwgm9-4nspRm6vIOW7OwWw-5QGaC3VHfJOu6lJ0yjr_V_JdgICuzXdFruCxIbT1IHYie-vLl0hS19Pp9gBgfbaRUrBZT8xd_RygFWZC1IeE-7ghMebtysfCLPHRqLxV2KcqrHctmmRXLJUB4InpiFPrTETp5M5mZkYUrXpzRFw",
+          "widthPx": 1125,
+          "heightPx": 1335,
+          "authorAttributions": [
+            {
+              "displayName": "Ernie Bert",
+              "uri": "https://maps.google.com/maps/contrib/102412380585721374091",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocI-rqPq0D3hN_7mFR3iYH1y5m9rJvBD6zc-uxgqm8vlECYNSw=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhAByxel1jgzzMVD2FQzP190&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAByxel1jgzzMVD2FQzP190!2e10!4m2!3m1!1s0x47a84e25a95a5777:0xbe5777787d44ebc9"
+        },
+        {
+          "name": "places/ChIJd1daqSVOqEcRyetEfXh3V74/photos/AcnlKN02DRskUdOncezgGULSwUwMW4X0hUPIKi2yWlVOR-AKSdBPC7d80nZOy0p6_VFN0H3adfLzYKMSHVHsNdmufrWRKV4MCYbX34Mic8R9IE8I3_yo6MHogZUVQsJw_tlOfHQVp95Lubdsj25anpx4Df3OXpvKQdJ4GIIeH2NMdZ0hI9xHHN4581Xy2w_9B75XDPflOp3yFOuICDI-CzErnwXFTqbDFOBFOm1LdODgDX0WBFkYEHOapJ5l1wcdKR2qE3kKfN0dBLf8g64wOOFSQnzsXORVV-kTSDayx5HvrmbTJMyZqPGG7LCaENbIr4hSax7VuzvqZ8qDY12ovB9AdNAPSlmPOPPVtl98CBx_zvtTENFDCZEV97frno-sZyHT5ruJeALkF5aHSy1rmfLMNRh76lEgcwkbF4hpAU2BkCe6OuJtGd5fUcCUI_QbrNGi",
+          "widthPx": 1080,
+          "heightPx": 1920,
+          "authorAttributions": [
+            {
+              "displayName": "Andrea Colle",
+              "uri": "https://maps.google.com/maps/contrib/107240215914179769023",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVRJ1rPlcdwToAeGUB5PYs1fb_NgzhtD7RzlVyTM6_Mo5Vh9i3STQ=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhAgxQFllHasPdH3ulsxgwAK&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAgxQFllHasPdH3ulsxgwAK!2e10!4m2!3m1!1s0x47a84e25a95a5777:0xbe5777787d44ebc9"
+        },
+        {
+          "name": "places/ChIJd1daqSVOqEcRyetEfXh3V74/photos/AcnlKN014shmHNWBVxREmBygDRNXMcmrqHlXedhz6tTS5gyV4MTdAmVFnXhIbLMLF0RcafvDmxOgzeuW8J3QYkTl6bPCvwFZPnu_gUt-on6OeyeAGGAYqZT3FsJXisY5au9Us9_R_lAGjxReJsGQuI1TSAnO0JeeYS-nozdbq0Khffg3HFFgC0XnwkI6GqeNGMPsCC0frNo7GndbRXKVPk2LXqusctmNBLVX1YvWe2Du3tqRHc1IzHCHd0j76zG-t6vu4O9FLP9C2-uQwOj0ssDIfV5EvdjlW7HEEEsvmqIL1c1GcgynPwwoM7m8JHkC9W4QmbQJDankuiaBDrmirXDRfUJtDnmFtO4Zxj6SC3OwRHRNv60b7TxJKEW7JwZkPl0gUUyZMDCSr3FFobROtvXge2f4zgc4N3o68LoV0d0dDvF3IDCXmOBnFcjFv3nqCMF8",
+          "widthPx": 3024,
+          "heightPx": 4032,
+          "authorAttributions": [
+            {
+              "displayName": "Sonya Ivanova",
+              "uri": "https://maps.google.com/maps/contrib/113065326559695919547",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUyz9mwTLYpkrSOdtoy8EE-_Wf7jurD1_LROWrxCLg7_vJ6Icj7=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhBd29KI9PdNQKhVQb7nnR0I&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBd29KI9PdNQKhVQb7nnR0I!2e10!4m2!3m1!1s0x47a84e25a95a5777:0xbe5777787d44ebc9"
+        },
+        {
+          "name": "places/ChIJd1daqSVOqEcRyetEfXh3V74/photos/AcnlKN3iRUAY9JOIEhV3SShL6GIybwTdPlHXqXfCkIp5dJSCoP5KPevf0an7m4Aa14Czc5vuqgZGTsd4xYQkYdrxtN1oRx3Vj58gSteAB_0pkIm38iBO2Qw23nrLhpszwthpMmsG3gSwCQW2IoCpPRp6gU25XpzbF7BMS11881fx0wtgESugmlXvrbYTBHmGcDbHBdgqeioc5vAYx1Wg8J_IuzgFJIbzomCdwJftldYZjUQt6jU0oumavmKksgHm4fSLPpuKumqd-LZLmCg1pUUT9JQt7F6o6ADW7BlHHTsEzMcXV_iTxH3O4Eoh4_gCetE5dSxlxvwzC_e4JxZi7QW-KbHyHrXeovCfqhtRIheyenmzvqQSmxtjLXuJnFnKINBof8SkcjzndKcJh_hKrpL3au6n7rDJE2XU4-YiH1H7KFto5TpQHi7GLyS-FLNsIv3S",
+          "widthPx": 3774,
+          "heightPx": 2830,
+          "authorAttributions": [
+            {
+              "displayName": "Gabriele Groenninger",
+              "uri": "https://maps.google.com/maps/contrib/100258068944400340216",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXzDmWVEeHcOOEVyg4_v7uXmM1hErbNh_RDMz5QWxQptkrkLzI=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhAsGV0HqtRHmnzl_lvrnEqs&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAsGV0HqtRHmnzl_lvrnEqs!2e10!4m2!3m1!1s0x47a84e25a95a5777:0xbe5777787d44ebc9"
+        },
+        {
+          "name": "places/ChIJd1daqSVOqEcRyetEfXh3V74/photos/AcnlKN3SyyQDhHC4tDivXIVBX2-zXXkGf-JC0YdhrptBOhSi7rpIKZlVqgbMX0oE0-qJNKN48RpZrXqX5sNmHaYMEefsKCsG58AI0kO7xlpuvgnW9aVf986E42nol_KZSHW9Yoie42tzX1WX11I7wg5MRTSXnMehgDlqwdDwFWhObe56upbB51hSwMl-kMEeb1-YK261S13fIvYYZJbxZ5lOoJfTbXtnMokEYH7gkM1gLbUuaIFwf6jElJEBvlaF0SWM7p8xR85r_36hcN9frD43AvZdBvjZluRTJqxMHfMP2ffhP-Q42Epbjoqc4wEmdy8DDkVWjez7B8Di34nWMumjKflvqhPKsVm4-4jxf4M-hU704vKRHviF7wWQkP_rHrOSchWp5CcaP3VE3CRUBfwxNrVepiVa38yqotGh2xv6L1mvOU0dR9DwRS_xWGp68uKv",
+          "widthPx": 1179,
+          "heightPx": 1486,
+          "authorAttributions": [
+            {
+              "displayName": "Nuria",
+              "uri": "https://maps.google.com/maps/contrib/109018004220120795321",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVHYaJWu9xzKFUAal3wH6YimgPs4XNa7YfIDDlRSlUA7SJDG40=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhAWod3oNqOgO6mNqBmjri5f&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAWod3oNqOgO6mNqBmjri5f!2e10!4m2!3m1!1s0x47a84e25a95a5777:0xbe5777787d44ebc9"
+        }
+      ],
+      "plus_code": {
+        "globalCode": "9F4MGC67+PC",
+        "compoundCode": "GC67+PC Berlin, Germany"
+      },
+      "accessibility": {
+        "wheelchairAccessibleParking": false,
+        "wheelchairAccessibleEntrance": false,
+        "wheelchairAccessibleRestroom": false
+      },
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "types": [
+        "cafe",
+        "breakfast_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formatted_phone": null,
+      "current_opening_hours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 9,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 15
+              }
+            },
+            "close": {
+              "day": 0,
+              "hour": 16,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 15
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 8,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 9
+              }
+            },
+            "close": {
+              "day": 1,
+              "hour": 15,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 9
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 8,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 10
+              }
+            },
+            "close": {
+              "day": 2,
+              "hour": 15,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 10
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 8,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 11
+              }
+            },
+            "close": {
+              "day": 3,
+              "hour": 15,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 11
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 8,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 12
+              }
+            },
+            "close": {
+              "day": 4,
+              "hour": 15,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 12
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 8,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 13
+              }
+            },
+            "close": {
+              "day": 5,
+              "hour": 15,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 13
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 8,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 14
+              }
+            },
+            "close": {
+              "day": 6,
+              "hour": 16,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 14
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 8:00 AM – 3:00 PM",
+          "Tuesday: 8:00 AM – 3:00 PM",
+          "Wednesday: 8:00 AM – 3:00 PM",
+          "Thursday: 8:00 AM – 3:00 PM",
+          "Friday: 8:00 AM – 3:00 PM",
+          "Saturday: 8:00 AM – 4:00 PM",
+          "Sunday: 9:00 AM – 4:00 PM"
+        ],
+        "nextCloseTime": "2026-02-09T14:00:00Z"
+      }
+    },
+    {
+      "name": "Cappuccino Grand Café - Mitte",
+      "address": "Tucholskystraße 36, 10117 Berlin, Germany",
+      "latitude": 52.5266063,
+      "longitude": 13.3936742,
+      "business_type": "cafe",
+      "phone": "+49 30 28444619",
+      "website": "http://www.cappuccinograndcafe.de/",
+      "rating": 4.7,
+      "review_count": 3054,
+      "place_id": "ChIJGcIfn-hRqEcR8gKjBD3xKuU",
+      "opening_hours": null,
+      "business_status": "OPERATIONAL",
+      "editorial_summary": {
+        "text": "Set breakfast menus, plus pastas, light snacks & coffee in a stylish, minimalist venue.",
+        "languageCode": "en"
+      },
+      "reviews": [
+        {
+          "name": "places/ChIJGcIfn-hRqEcR8gKjBD3xKuU/reviews/Ci9DQUlRQUNvZENodHljRjlvT25NM09VcExSRzAyUVU1TlpFMXhNMVF4WW5NNVNXYxAB",
+          "relativePublishTimeDescription": "2 months ago",
+          "rating": 4,
+          "text": {
+            "text": "Staff is fast but not friendly. They are just there but feels like they don’t make any effort to make you feel welcome. Awkward, but again, they do their job and it’s enough.\n\nFood: served fast, but pricey but that’s Mitte and rents are crazy for that size of store. Menu selection for all tastes. Small detail but makes difference: strawberries for the bowl were not fresh cut, looks dry and not fresh as might be there for some time. Not a big deal but not expected. For 12€, bowl could be bigger as no special ingredients included.\n\nAmbient: well decorated and cleaned. Some tables super close to each other but understandable. Good for going alone, dates or group of friends.",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Staff is fast but not friendly. They are just there but feels like they don’t make any effort to make you feel welcome. Awkward, but again, they do their job and it’s enough.\n\nFood: served fast, but pricey but that’s Mitte and rents are crazy for that size of store. Menu selection for all tastes. Small detail but makes difference: strawberries for the bowl were not fresh cut, looks dry and not fresh as might be there for some time. Not a big deal but not expected. For 12€, bowl could be bigger as no special ingredients included.\n\nAmbient: well decorated and cleaned. Some tables super close to each other but understandable. Good for going alone, dates or group of friends.",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Bruno",
+            "uri": "https://www.google.com/maps/contrib/100863637970413239389/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWGt_ixgxzzpcgvaJSwzho6FE4UozyBJBWT8SDl6qY2OF6c7GAU=s128-c0x00000000-cc-rp-mo-ba5"
+          },
+          "publishTime": "2025-12-07T11:53:34.442920257Z",
+          "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT25NM09VcExSRzAyUVU1TlpFMXhNMVF4WW5NNVNXYxAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT25NM09VcExSRzAyUVU1TlpFMXhNMVF4WW5NNVNXYxAB!2m1!1s0x47a851e89f1fc219:0xe52af13d04a302f2"
+        },
+        {
+          "name": "places/ChIJGcIfn-hRqEcR8gKjBD3xKuU/reviews/Ci9DQUlRQUNvZENodHljRjlvT200MmFUaGxXRFp2Y21GU2MzcE5ZbFp1WlZSVU5HYxAB",
+          "relativePublishTimeDescription": "2 months ago",
+          "rating": 3,
+          "text": {
+            "text": "I stopped by this café with a friend in the afternoon. We ordered two drinks and a cake. The place has a cute, minimalist, pink aesthetic—fine for a quick meet-up, nothing more. The food and drinks were extremely basic, nothing memorable.\n\nService was… neutral. Not friendly, not rude—just there.\n\nThe space is larger than it looks, but somehow still awkward to sit in. Plenty of room, yet no comfortable spot to settle. Something about the layout just feels off.\n\nOverall, it’s okay for a one-time visit, but there’s nothing compelling enough to come back for.",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "I stopped by this café with a friend in the afternoon. We ordered two drinks and a cake. The place has a cute, minimalist, pink aesthetic—fine for a quick meet-up, nothing more. The food and drinks were extremely basic, nothing memorable.\n\nService was… neutral. Not friendly, not rude—just there.\n\nThe space is larger than it looks, but somehow still awkward to sit in. Plenty of room, yet no comfortable spot to settle. Something about the layout just feels off.\n\nOverall, it’s okay for a one-time visit, but there’s nothing compelling enough to come back for.",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Zahra Saadat",
+            "uri": "https://www.google.com/maps/contrib/109412799624435285394/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXr2eVNzsFS5C4N0g5mqvqvrm6vsiX7-7RGyH5GSpRxvyk0i3o=s128-c0x00000000-cc-rp-mo-ba3"
+          },
+          "publishTime": "2025-11-28T21:48:26.194568764Z",
+          "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT200MmFUaGxXRFp2Y21GU2MzcE5ZbFp1WlZSVU5HYxAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT200MmFUaGxXRFp2Y21GU2MzcE5ZbFp1WlZSVU5HYxAB!2m1!1s0x47a851e89f1fc219:0xe52af13d04a302f2"
+        },
+        {
+          "name": "places/ChIJGcIfn-hRqEcR8gKjBD3xKuU/reviews/Ci9DQUlRQUNvZENodHljRjlvT25kQ2RuaFZVVTVWUkROWkxXMW9NV3AwWkhNeFIzYxAB",
+          "relativePublishTimeDescription": "5 months ago",
+          "rating": 5,
+          "text": {
+            "text": "The waitresses are definetly very welcoming and friendly. In those moments, one thinks whether he should move from Munich to Berlin…\n\nFood is good for breakfast and there are a lot options.",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "The waitresses are definetly very welcoming and friendly. In those moments, one thinks whether he should move from Munich to Berlin…\n\nFood is good for breakfast and there are a lot options.",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Berke Esmer",
+            "uri": "https://www.google.com/maps/contrib/109520036318986687381/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocL5Ee-gEiQHmdd13IWg_xPUT6PK6dIBCPFAVGIcM0a6CG23bg=s128-c0x00000000-cc-rp-mo-ba3"
+          },
+          "publishTime": "2025-08-16T08:36:42.904170855Z",
+          "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT25kQ2RuaFZVVTVWUkROWkxXMW9NV3AwWkhNeFIzYxAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT25kQ2RuaFZVVTVWUkROWkxXMW9NV3AwWkhNeFIzYxAB!2m1!1s0x47a851e89f1fc219:0xe52af13d04a302f2"
+        },
+        {
+          "name": "places/ChIJGcIfn-hRqEcR8gKjBD3xKuU/reviews/Ci9DQUlRQUNvZENodHljRjlvT25WUVdFaDBZelpJWmpsblEyWkJielEwTUVwNlJsRRAB",
+          "relativePublishTimeDescription": "2 months ago",
+          "rating": 5,
+          "text": {
+            "text": "Place is cozy and good vibe.\nStaff can be a bit more attentive with customer service.\nFood and drinks are very nice.",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Place is cozy and good vibe.\nStaff can be a bit more attentive with customer service.\nFood and drinks are very nice.",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Blagoje Prodanovic",
+            "uri": "https://www.google.com/maps/contrib/114093385825129106783/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLqe7G2ewmRSKbi7LD_qp6acluHnuavl0Q9gfpZ4o1gZoDN4A=s128-c0x00000000-cc-rp-mo-ba4"
+          },
+          "publishTime": "2025-11-23T15:02:25.298137168Z",
+          "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT25WUVdFaDBZelpJWmpsblEyWkJielEwTUVwNlJsRRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT25WUVdFaDBZelpJWmpsblEyWkJielEwTUVwNlJsRRAB!2m1!1s0x47a851e89f1fc219:0xe52af13d04a302f2"
+        },
+        {
+          "name": "places/ChIJGcIfn-hRqEcR8gKjBD3xKuU/reviews/Ci9DQUlRQUNvZENodHljRjlvT2s1Sk9EVkNSV1Y2YlRWRE4yRkhjRFo0TnpoQmQwRRAB",
+          "relativePublishTimeDescription": "a month ago",
+          "rating": 5,
+          "text": {
+            "text": "Super fun and tasty brunch experience! Food was fast and delicious, service was excellent. Highly recommend!",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Super fun and tasty brunch experience! Food was fast and delicious, service was excellent. Highly recommend!",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Owen Cabo",
+            "uri": "https://www.google.com/maps/contrib/115988935668260646316/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLOywo92tK7EAkYu4k_7la3qH8EtJIMmBWQ31-xXnU3rRo1-A=s128-c0x00000000-cc-rp-mo-ba3"
+          },
+          "publishTime": "2025-12-31T08:45:24.797181226Z",
+          "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2s1Sk9EVkNSV1Y2YlRWRE4yRkhjRFo0TnpoQmQwRRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2s1Sk9EVkNSV1Y2YlRWRE4yRkhjRFo0TnpoQmQwRRAB!2m1!1s0x47a851e89f1fc219:0xe52af13d04a302f2"
+        }
+      ],
+      "photos": [
+        {
+          "name": "places/ChIJGcIfn-hRqEcR8gKjBD3xKuU/photos/AcnlKN0fdukEdeeKCQoXkuR6ezF_Z_n-LpXnf-mzvs55sySCxfAtPpiOOBG0jZtpWM-PP4t2r5raO2Ghl9yE29cxVbyBoN080gDx6tvik25se8YsaB5RbKjwTm7ytQoIMYLVFeQDb7TefnrP-N7TeqwZh0v3kzN3RGUivJTGlocpM2GdXWC6ba-yBN0f3zXw0zdb-I7t86waxOicpHtL2FQ3btPpOqlL6pdDw-V4A2ZX2DszsPAQU_Mneel4QQKAAQ7R-wzOfab3YpC4-vDyvhByrGrjzVk5saWUfQAT_7ZsRu0sEg",
+          "widthPx": 4724,
+          "heightPx": 3149,
+          "authorAttributions": [
+            {
+              "displayName": "Cappuccino Grand Café - Mitte",
+              "uri": "https://maps.google.com/maps/contrib/113157300419583864452",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUnIkZq8XYPRMVgI7ZsOwj7pj3sU0F-10Uln0Kn_iJ1UmAMyZ3v=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipNVUstg3ejqr43Y-aD2hluNgi2BPR-6LRwZgadE&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNVUstg3ejqr43Y-aD2hluNgi2BPR-6LRwZgadE!2e10!4m2!3m1!1s0x47a851e89f1fc219:0xe52af13d04a302f2"
+        },
+        {
+          "name": "places/ChIJGcIfn-hRqEcR8gKjBD3xKuU/photos/AcnlKN0UN1D2dEfKWni636osoO3YOzB7NOmW6y89nJtNZGTvPNC17Op6JHvvhmCrucJzIhFbPNc3tmhXHVddV77G83MV7LEzQOnHHSVAIZfF6EmLPLTQhdwHua0kl0sjsgdMrMUmU9_3XNXV5Hywm_p6nVFvU_VmGXNA2DTKHdjcE3wEVVU7FR886zRN2yEKisg36mqJFJyGiaqDBnrgdXsLfqUMH5NGYe_4j8tpoa6X0lpFqEX1gHdbmdfJ3aDqo29zAOQtvpeWYEBIhC8fd0QNyPuT_JA-MKkDV4vAE6sLDRDczg",
+          "widthPx": 1344,
+          "heightPx": 756,
+          "authorAttributions": [
+            {
+              "displayName": "Cappuccino Grand Café - Mitte",
+              "uri": "https://maps.google.com/maps/contrib/113157300419583864452",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUnIkZq8XYPRMVgI7ZsOwj7pj3sU0F-10Uln0Kn_iJ1UmAMyZ3v=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipNUTBWbShfaFEpj3pzMEVhleC4D-M04TzPG2E31&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNUTBWbShfaFEpj3pzMEVhleC4D-M04TzPG2E31!2e10!4m2!3m1!1s0x47a851e89f1fc219:0xe52af13d04a302f2"
+        },
+        {
+          "name": "places/ChIJGcIfn-hRqEcR8gKjBD3xKuU/photos/AcnlKN2LMydzV4iZqu_NXhAT0m9fo4aVQ5ZBO4fID22trSWLR6aC2kGYsD-RYJWeamgTFuDZiY-BgeCQy4FYpMS6ZuL3G_DiwpsPmgehBjwSZvfvXzRaEKUtjrPIUHXmCzWoZVg9qUjUSgH_ChpZQrg5we-xM7VH7RZPBDuS63cmpIrnzesejnoxIeRBxTaFcUX7BvpArlpzBqUgu_oHNa6ZS_JliFDKldHsP4oxoNgvnMxKbVF0isLE37HOfD0XK9_zzRZhA8i_l7w8q804F1wRyVzRpbu_-jw3r929V4E_NYr5fYDi1IENJTDHkoey_MiBhK0C87IaTajlrGdWGeC65qZA0mqiPw1F6VFQQY2jMEiv3KonD7LTvVlHffhB81557_nrd83b550SXBu8saonLMq6XLu7v4imT6rivZxKh6XtShEemH_cMmmVDwjb6G2D",
+          "widthPx": 1501,
+          "heightPx": 1672,
+          "authorAttributions": [
+            {
+              "displayName": "Ceyda Zaim",
+              "uri": "https://maps.google.com/maps/contrib/107063506683100139920",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU3I-WKFvPzpGCrvoGmqbGeDVNPxvg_L5yLu2Q8_Sv3vp2W1wPr=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhDuvbbLJZF7dJSv5e2HRUb1&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDuvbbLJZF7dJSv5e2HRUb1!2e10!4m2!3m1!1s0x47a851e89f1fc219:0xe52af13d04a302f2"
+        },
+        {
+          "name": "places/ChIJGcIfn-hRqEcR8gKjBD3xKuU/photos/AcnlKN3iCOVxVU8nYjt_G9vNNXGw30K0XInFwjrq4pzakQOAXpDJ3e1wFtTqrWvbWfxi4Z-uiqflZgT3Q8gljyi3hUyDjIV11GhvO4UA_GxnDS3awD3CBeu19E3lUdOtsT59fW63ssoUcr35ftuxOQmv4F-PeBkmPE8noAjfoT24jiEUOXamerCg8N2N7We7pfocbCWqe-f2L1YW61gYZsNDb-glXaSQUyVp1LiZ5hyc8VkbbNvzdLxwj1V6JsdevXsA7AQiAMGZXExzhI9pK8IecDeo5vTf9jCqwYxyFMjCQsttEBFdwJoWG_IQF0A29sWsZTwQrqdMa4rJTYL7SptJUNhub3JN22_YgoKQWjMOL6lkQKR1xRftmDbJkRxGjYj7qso0iUOzlmS6oQe3SINSJGTkG3Sek5JNRL87AuLz4yWl9J0r9glSq_sMv0S29w",
+          "widthPx": 4000,
+          "heightPx": 3000,
+          "authorAttributions": [
+            {
+              "displayName": "Thomas Raths",
+              "uri": "https://maps.google.com/maps/contrib/111958261234909378715",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLOzxaPe5lLxRTW35Jw0LTw6zm9So4MIZA5lrRpDRra_GXvJg=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhClKNh0ZdaQwi9zUfwR07MC&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhClKNh0ZdaQwi9zUfwR07MC!2e10!4m2!3m1!1s0x47a851e89f1fc219:0xe52af13d04a302f2"
+        },
+        {
+          "name": "places/ChIJGcIfn-hRqEcR8gKjBD3xKuU/photos/AcnlKN1mF9KOOtaLJWMkV3NljESEPgucxne6JCUXR_A4sscww5__TfnIbQ8RVy-4sUsXSzVWcNJSq0wscEtd7o9VH3pKmNtPSciN7tg24ATNplcqBZCBCdbqrWwiKoi6LJhDS5HSGAMhRJE7X3wAeesHBHzzu5mIcWo4KrFpSCBAs_6wN8e4aZGET41MSXb8YL7nZ1AJO-NTZjee-_XXGoD2khPeOOsBSxZAzlKKqI9YGT5joWz9y2rlToX63kFwZ6Ylfa_U6fklMnFo7Qx3y276RfCjEjlP7P4KXdgWUBZJ9REBGYKVVZJjZQQDfnZUL5nu2GAn8rIZuUGmSlJPtM16O9h8OsRz8RhbNXrE-mzcV6jD-fJl7aHPVEmblzUHTcam6yUcb09wVLM4PsHWohWmSz-oJQeCt8WeNuWOs2YPvcOxtXjdYo1QIzWEBIhWXwqb",
+          "widthPx": 2448,
+          "heightPx": 3264,
+          "authorAttributions": [
+            {
+              "displayName": "Torsten Quast",
+              "uri": "https://maps.google.com/maps/contrib/112510606062067449887",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIu927AYYkcNV0Tim_-qutEXVJ8C3Yl3FsUWewNBMzaxXqIVQ=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhDpo3jt2dj6dzojovHHBGbV&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDpo3jt2dj6dzojovHHBGbV!2e10!4m2!3m1!1s0x47a851e89f1fc219:0xe52af13d04a302f2"
+        },
+        {
+          "name": "places/ChIJGcIfn-hRqEcR8gKjBD3xKuU/photos/AcnlKN1bw9Ge9gih1hGklmMopu1zWGLLjBBAO4sWaEJXPgwtx34MEZIyYKzSo_GEGNm1yfQl85G279hH6R1vj5SnkTzYPqiGrACkRXnsEESyCUnnjMlDUwt-qFDX06uHgwwAjP8aPwJItv3_OFBxDY-7kPEFtVOfS6I372gk-AXMhdO5Uf8Y1xWRJ83TFBWyRgKUjDl71mRFJe62F-4bA5eQez5_jg--Dol7huLhbLRvbPgDQRT5-8gYp5ow92BPzrFxAoTdy_DNnHpTUdQO5DGU5VxrqUif_4FMrC5b2eTtgVHLRXMmKVxVDUBFWmKfY1Y3stmEoaRFPiA2KASYGozetthREt4zB5SCyrtEkgUbBTVgYwMM_VeHju_IK0Bvo6ARXp8Fspq7ww6aPNLpmeJJJd2WT6bbMcO9ZR3J7ItGrvIlw8QxBnbbX04leF51UUpL",
+          "widthPx": 3024,
+          "heightPx": 4032,
+          "authorAttributions": [
+            {
+              "displayName": "Lisa & Michael Dimmitt",
+              "uri": "https://maps.google.com/maps/contrib/104947027638177189214",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUpEDc236w1ucVw4idMZQWFOW5jjyOwVWLsUi3Vuk-40yH4fcA=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhCCFm6-e9KAwpXnHqd3hKjd&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCCFm6-e9KAwpXnHqd3hKjd!2e10!4m2!3m1!1s0x47a851e89f1fc219:0xe52af13d04a302f2"
+        },
+        {
+          "name": "places/ChIJGcIfn-hRqEcR8gKjBD3xKuU/photos/AcnlKN0afaO9tNxj8TmJSco6nFjTy-FcRpMKRLV3pROTmVbeALi2QhMUn5cjTM_HrblN6lWQt4UdillCp_hX_p9UaHHcnJzHfDWO2FkCbLKJISjGEpMdwGVS-Uyzf-o_T_sk2VMdIFY5fMLZL6dDM_n6x0Izc14oBEilgCj8uEwj1P3Ym31TK9M5H1PO3eI2oFlP5lCXc9jWiHGKOwRqedCOhzH4jH2aNBLqASLU5rduxSY3Tyu1faccgsOvRyQXF9tZfg5bL6N-ETgmml8AqGcmNyMf4zUyK54j12HVZvadqXRI7vmdIy2IaU6Lgi2ii5t_tng7w7PSs3UjdtvhwK5gFbk-LBP2FqHuhCbS5ToGzVEI5HoTGSDfzCT_9XPc9nu1COUfAclFJtrKjZZ6m6_1ycDLCtCTy3iIj0puOKWyvAwVlo5_1cvWXi2mTNQtI07k",
+          "widthPx": 2350,
+          "heightPx": 3134,
+          "authorAttributions": [
+            {
+              "displayName": "Torsten Quast",
+              "uri": "https://maps.google.com/maps/contrib/112510606062067449887",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIu927AYYkcNV0Tim_-qutEXVJ8C3Yl3FsUWewNBMzaxXqIVQ=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhCV5gsgFi8opmIe-1406lKa&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCV5gsgFi8opmIe-1406lKa!2e10!4m2!3m1!1s0x47a851e89f1fc219:0xe52af13d04a302f2"
+        },
+        {
+          "name": "places/ChIJGcIfn-hRqEcR8gKjBD3xKuU/photos/AcnlKN2f2C1iOdqLe4PwcY8Usqd1sALVMyvnyDt2qzQdzoTxZdbFd91XjonZir_PqUgcTcf0uOkJdvvHz7HgoxwhBSojb0793BmWDOHauMnZi1O3_frWhoxMCo6hzmrkFy2Wa3GL_Ius6fMqBXxZcBh925u_SIYp9FTDn5thwKi5YdmVtdbeP2RTPddlq086ZotaWQAgEW7bAQoUiGaNfM6iTjb0GzTWayD3wdfQZCXDsXfRC9L5H7R1gkDncgau3dkWanlATNTKMnml98QmFd31N7L66-V-5gEKeX58Fr-MLrKrgQ",
+          "widthPx": 3840,
+          "heightPx": 4800,
+          "authorAttributions": [
+            {
+              "displayName": "Cappuccino Grand Café - Mitte",
+              "uri": "https://maps.google.com/maps/contrib/113157300419583864452",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUnIkZq8XYPRMVgI7ZsOwj7pj3sU0F-10Uln0Kn_iJ1UmAMyZ3v=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipPUlCwI0NQibowoGd0YLfZh6tXkkUyVPaG5rEiD&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipPUlCwI0NQibowoGd0YLfZh6tXkkUyVPaG5rEiD!2e10!4m2!3m1!1s0x47a851e89f1fc219:0xe52af13d04a302f2"
+        },
+        {
+          "name": "places/ChIJGcIfn-hRqEcR8gKjBD3xKuU/photos/AcnlKN2L7d4LFqcZEMeGhKRIJVw5fyqHT3mGx1rLKWu-Ec5qyRU41EFauuXrxKRq5ltVn0FXHspp-Hr-0lNFBCUovXW0OJar_3ciiicgOYs8XCrn5zgu1Pb5R04yuYeaTWIeDOHEu67VeorOXQPdRRh-z7bfm8yKmHvgyHiwC3wyEZYMGfEixN8fQduK4df9lHcjtbyolIh_jjhcQPOxgX8yka8aZluwlOX5ws2pDqd5chF-0urQhUoW3pYCm2bKXmjMWu0zmNgyo6li9ZuuEYbiUgHZCD_POoPxj-51lrNXhYGZew",
+          "widthPx": 2675,
+          "heightPx": 3567,
+          "authorAttributions": [
+            {
+              "displayName": "Cappuccino Grand Café - Mitte",
+              "uri": "https://maps.google.com/maps/contrib/113157300419583864452",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUnIkZq8XYPRMVgI7ZsOwj7pj3sU0F-10Uln0Kn_iJ1UmAMyZ3v=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipPcSFJvGMEZt3bXakV1u2wLAxPP1uXeVP40qIeG&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipPcSFJvGMEZt3bXakV1u2wLAxPP1uXeVP40qIeG!2e10!4m2!3m1!1s0x47a851e89f1fc219:0xe52af13d04a302f2"
+        },
+        {
+          "name": "places/ChIJGcIfn-hRqEcR8gKjBD3xKuU/photos/AcnlKN3PE3d7bUoJzWonIktDvfVBO3H4rEA7qT51nz_NDppLZ_zsIiHrocrrtfeqx5zVMH5KWfbEGmxhgOIAgJI6zVE7B2vXaB3J5ZJ4xGEd5JvAgm-SaPox2bjHfXJ5V83AAKLr6XGSjjCr3x7jzhpj6L_WGLCTx3SFg8YgW5MIqtP4SIMNSHzZmtrlHgcnbQVEWygzrIFFvXVI5A-BWNha3txGOdL9td2cC4_cC0dT-NP7VF1Ncrbv03pjURA5rtJLy1wLhLn3jEESwyIl1qbSyviVZLmf_tf8yCPvus795W6VANg0Aki01-VR3Y_FI4HAydX7IuJFcx4uAEs-B1SwxJ8G1Q-wGIOAGkNDkHxs73dnOgXg5rPHll_aj65PC8G6z8NEndLnqeFcI-fZJNM9fDjhIW-q3NFoa7oWKjoVtb7GwcsLDGGeOZ_KTRoDImk-",
+          "widthPx": 3072,
+          "heightPx": 4080,
+          "authorAttributions": [
+            {
+              "displayName": "Maik Strietzel",
+              "uri": "https://maps.google.com/maps/contrib/117079142572929552583",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU8OET0SGvvApxemmbNqbFRETsXsqT4HeYtNPdHTHwO1ht_PElQ=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhAudLsiGp7-v-tAKxKFeAnH&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAudLsiGp7-v-tAKxKFeAnH!2e10!4m2!3m1!1s0x47a851e89f1fc219:0xe52af13d04a302f2"
+        }
+      ],
+      "plus_code": {
+        "globalCode": "9F4MG9GV+JF",
+        "compoundCode": "G9GV+JF Berlin, Germany"
+      },
+      "accessibility": {
+        "wheelchairAccessibleParking": false,
+        "wheelchairAccessibleEntrance": false,
+        "wheelchairAccessibleRestroom": false
+      },
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "types": [
+        "cafe",
+        "brunch_restaurant",
+        "breakfast_restaurant",
+        "sandwich_shop",
+        "italian_restaurant",
+        "restaurant",
+        "coffee_shop",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formatted_phone": null,
+      "current_opening_hours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 8,
+              "minute": 30,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 15
+              }
+            },
+            "close": {
+              "day": 0,
+              "hour": 19,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 15
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 8,
+              "minute": 30,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 9
+              }
+            },
+            "close": {
+              "day": 1,
+              "hour": 18,
+              "minute": 30,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 9
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 8,
+              "minute": 30,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 10
+              }
+            },
+            "close": {
+              "day": 2,
+              "hour": 18,
+              "minute": 30,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 10
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 8,
+              "minute": 30,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 11
+              }
+            },
+            "close": {
+              "day": 3,
+              "hour": 18,
+              "minute": 30,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 11
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 8,
+              "minute": 30,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 12
+              }
+            },
+            "close": {
+              "day": 4,
+              "hour": 18,
+              "minute": 30,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 12
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 8,
+              "minute": 30,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 13
+              }
+            },
+            "close": {
+              "day": 5,
+              "hour": 19,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 13
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 8,
+              "minute": 30,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 14
+              }
+            },
+            "close": {
+              "day": 6,
+              "hour": 19,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 14
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 8:30 AM – 6:30 PM",
+          "Tuesday: 8:30 AM – 6:30 PM",
+          "Wednesday: 8:30 AM – 6:30 PM",
+          "Thursday: 8:30 AM – 6:30 PM",
+          "Friday: 8:30 AM – 7:00 PM",
+          "Saturday: 8:30 AM – 7:00 PM",
+          "Sunday: 8:30 AM – 7:00 PM"
+        ],
+        "nextCloseTime": "2026-02-09T17:30:00Z"
+      }
+    },
+    {
+      "name": "Zimt & Zucker",
+      "address": "Schiffbauerdamm 12, 10117 Berlin, Germany",
+      "latitude": 52.520629,
+      "longitude": 13.3842622,
+      "business_type": "cafe",
+      "phone": "+49 30 81010858",
+      "website": "https://zimtundzucker.com/",
+      "rating": 4.3,
+      "review_count": 3665,
+      "place_id": "ChIJv0gu0sNRqEcRYL3mhry5MKw",
+      "opening_hours": null,
+      "business_status": "OPERATIONAL",
+      "editorial_summary": null,
+      "reviews": [
+        {
+          "name": "places/ChIJv0gu0sNRqEcRYL3mhry5MKw/reviews/Ci9DQUlRQUNvZENodHljRjlvT21wb2RYTXhiMWRJTjFoU2JFdDFiRFpsTUY5Nk5rRRAB",
+          "relativePublishTimeDescription": "3 weeks ago",
+          "rating": 5,
+          "text": {
+            "text": "We popped in on a cold, busy day without a reservation and were offered a seat at a shared table. We are usually somewhat \"to our selves \" type of people, but the arraignment,  and the warm feeling of this place gave us no hesitation even though we don't really speak the language. The employees were proficient in English. We started with a gorgeous  latte and milk chocolate hot cocoa. You can choose between white, milk, and dark cocoa so that tells you what kind of place  this is. My husband raved about the cocoa and he is not easily impressed.  I splurged and ordered the poached egg with ricotta  and thyme on bread. I was very happy they agreed to substitute  croissant for the bread . The combination of egg with ricotta never entered my mind previously, but it will never leave my mind after having the privilege to taste it.  If I am near any Zimt und Zucker in the future I will gladly come again.",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "We popped in on a cold, busy day without a reservation and were offered a seat at a shared table. We are usually somewhat \"to our selves \" type of people, but the arraignment,  and the warm feeling of this place gave us no hesitation even though we don't really speak the language. The employees were proficient in English. We started with a gorgeous  latte and milk chocolate hot cocoa. You can choose between white, milk, and dark cocoa so that tells you what kind of place  this is. My husband raved about the cocoa and he is not easily impressed.  I splurged and ordered the poached egg with ricotta  and thyme on bread. I was very happy they agreed to substitute  croissant for the bread . The combination of egg with ricotta never entered my mind previously, but it will never leave my mind after having the privilege to taste it.  If I am near any Zimt und Zucker in the future I will gladly come again.",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Leanne M",
+            "uri": "https://www.google.com/maps/contrib/107123785948854547226/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUNB0mDRB3Si8duWhhtM9jC56vZxZmhXeT99PXu0qXxJThcE1Y=s128-c0x00000000-cc-rp-mo-ba3"
+          },
+          "publishTime": "2026-01-16T21:51:53.800470010Z",
+          "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT21wb2RYTXhiMWRJTjFoU2JFdDFiRFpsTUY5Nk5rRRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21wb2RYTXhiMWRJTjFoU2JFdDFiRFpsTUY5Nk5rRRAB!2m1!1s0x47a851c3d22e48bf:0xac30b9bc86e6bd60"
+        },
+        {
+          "name": "places/ChIJv0gu0sNRqEcRYL3mhry5MKw/reviews/Ci9DQUlRQUNvZENodHljRjlvT2tjd2NFUnNNRko2YkhoUlFrWXdaakJyV1RWWFIwRRAB",
+          "relativePublishTimeDescription": "a month ago",
+          "rating": 5,
+          "text": {
+            "text": "We did not have a reservation and were lucky to instantly get a table!\nThe waitress was professional and attentive.\n\nThe coffee and hot chocolate were very good, apart from the fact that the hot chocolate was mildly warm instead of hot. Preference maybe?\n\nWe shared a blue berry cheesecake which was gluten free, light, not too sweet and very delicious.\n\nThe cakes and items on the menu are all labeled with \"vegan\" or \"gluten free\", which was helpful.\n\nThe prices, however, are a little expensive.",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "We did not have a reservation and were lucky to instantly get a table!\nThe waitress was professional and attentive.\n\nThe coffee and hot chocolate were very good, apart from the fact that the hot chocolate was mildly warm instead of hot. Preference maybe?\n\nWe shared a blue berry cheesecake which was gluten free, light, not too sweet and very delicious.\n\nThe cakes and items on the menu are all labeled with \"vegan\" or \"gluten free\", which was helpful.\n\nThe prices, however, are a little expensive.",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Esra Ahmed",
+            "uri": "https://www.google.com/maps/contrib/100468774927542702215/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJVvGRt8B1-pYjx4HMZEMPzFmOzFNbxeWKKvVwmoQujQPORTw=s128-c0x00000000-cc-rp-mo-ba3"
+          },
+          "publishTime": "2025-12-27T15:42:11.895528162Z",
+          "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2tjd2NFUnNNRko2YkhoUlFrWXdaakJyV1RWWFIwRRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2tjd2NFUnNNRko2YkhoUlFrWXdaakJyV1RWWFIwRRAB!2m1!1s0x47a851c3d22e48bf:0xac30b9bc86e6bd60"
+        },
+        {
+          "name": "places/ChIJv0gu0sNRqEcRYL3mhry5MKw/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xGRmVFUlhOa3hDUkZkV1pFcFJVamhpVjJFdFJVRRAB",
+          "relativePublishTimeDescription": "2 months ago",
+          "rating": 5,
+          "text": {
+            "text": "At the entrance there was a sign asking to stop and wait for the waiter to let you in and to check for a reservation, but it was fine even if you didn’t have one. Inside it was great — a very local spot for morning breakfast, and it was just perfect",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "At the entrance there was a sign asking to stop and wait for the waiter to let you in and to check for a reservation, but it was fine even if you didn’t have one. Inside it was great — a very local spot for morning breakfast, and it was just perfect",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Aytsemik Stepanyan",
+            "uri": "https://www.google.com/maps/contrib/103922744030711314636/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU7x8jkxG84GyCFcouuEhaa4TY-826cLwP14sG9CSzs4LhhPYGb=s128-c0x00000000-cc-rp-mo"
+          },
+          "publishTime": "2025-12-09T16:57:02.050707107Z",
+          "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xGRmVFUlhOa3hDUkZkV1pFcFJVamhpVjJFdFJVRRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xGRmVFUlhOa3hDUkZkV1pFcFJVamhpVjJFdFJVRRAB!2m1!1s0x47a851c3d22e48bf:0xac30b9bc86e6bd60"
+        },
+        {
+          "name": "places/ChIJv0gu0sNRqEcRYL3mhry5MKw/reviews/Ci9DQUlRQUNvZENodHljRjlvT2tORllVNXVRV3BmY0ZwS1ZuVjRYM0p4V1RoM1NsRRAB",
+          "relativePublishTimeDescription": "2 months ago",
+          "rating": 5,
+          "text": {
+            "text": "Cosy place to grab a bite and have a good cup of coffee. Good portions and excellent food . Scrambled eggs with goat cheese and walnuts is a must. If you just drop in you will probably share a table . If you like privacy make a reservation.",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Cosy place to grab a bite and have a good cup of coffee. Good portions and excellent food . Scrambled eggs with goat cheese and walnuts is a must. If you just drop in you will probably share a table . If you like privacy make a reservation.",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Vasileios Pavlos",
+            "uri": "https://www.google.com/maps/contrib/117704965240824519221/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWH0ggpmOu_Jgnoq-Gy8pjNaZNKrvr8Ib5dKBuq9tXHiBsRvHSKdg=s128-c0x00000000-cc-rp-mo-ba4"
+          },
+          "publishTime": "2025-12-09T09:03:26.997870844Z",
+          "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2tORllVNXVRV3BmY0ZwS1ZuVjRYM0p4V1RoM1NsRRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2tORllVNXVRV3BmY0ZwS1ZuVjRYM0p4V1RoM1NsRRAB!2m1!1s0x47a851c3d22e48bf:0xac30b9bc86e6bd60"
+        },
+        {
+          "name": "places/ChIJv0gu0sNRqEcRYL3mhry5MKw/reviews/Ci9DQUlRQUNvZENodHljRjlvT25KV1ZYcE5XbEpyYkVOT2JXZGFXWG90VkRrMWFXYxAB",
+          "relativePublishTimeDescription": "5 months ago",
+          "rating": 5,
+          "text": {
+            "text": "Dear @Tamness Tri Phases,\nIt is sad to see your negativity demean this wonderful breakfast experience. The waitress was charming and welcoming, we felt right at home sitting by the canal. We arrived spontaneously like your comment did in my life and were welcomed with open arms. Beautiful view, food and vibes. Have a great day Mrs Tamness and thank you for the food Zimt & Zucker.",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Dear @Tamness Tri Phases,\nIt is sad to see your negativity demean this wonderful breakfast experience. The waitress was charming and welcoming, we felt right at home sitting by the canal. We arrived spontaneously like your comment did in my life and were welcomed with open arms. Beautiful view, food and vibes. Have a great day Mrs Tamness and thank you for the food Zimt & Zucker.",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Mael Mangin",
+            "uri": "https://www.google.com/maps/contrib/117863398442027136677/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUDa0aTftaau9lNiFaOrEAuVdYycChTYVtHOEcl-WWANZo0EKHe=s128-c0x00000000-cc-rp-mo"
+          },
+          "publishTime": "2025-08-31T09:18:35.943283457Z",
+          "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT25KV1ZYcE5XbEpyYkVOT2JXZGFXWG90VkRrMWFXYxAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT25KV1ZYcE5XbEpyYkVOT2JXZGFXWG90VkRrMWFXYxAB!2m1!1s0x47a851c3d22e48bf:0xac30b9bc86e6bd60"
+        }
+      ],
+      "photos": [
+        {
+          "name": "places/ChIJv0gu0sNRqEcRYL3mhry5MKw/photos/AcnlKN3dGO29OoMJK1moCrCsX_WfcrxHrdCuVhfgJWmFCFcYyjTLdYnj6vseCU_zRp0WDfknOOxIfZex5hhpjpE0YTZqwWQrP_PID4YYaZDZshQzgCYpQQYna1ahpsYZK4q41CZrEKAlsW7u-0SETOoJ4AkXVorpj0cdYqyH8sCUs41LNXLydgqDoEKPVLnUG861kAn0g-IWzisF8Lt8AVOAvSOUdr1ueymg5MuZMgHrEqO0MHrqIAJBcKmaBgFa-RdMlevZALmPrboxFXAW94NevIciuy3Fm4r4S2gfSVpiY_ptOA",
+          "widthPx": 2598,
+          "heightPx": 1732,
+          "authorAttributions": [
+            {
+              "displayName": "Zimt & Zucker",
+              "uri": "https://maps.google.com/maps/contrib/107708384961915310376",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWavIVcrV54SrtmQmW-U_DhOa8R4kaaEze0U5mZGcmJXZqpfQQ=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipNXrtzqR32ePdKECCVRICbfR1053ybC_C52juiX&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNXrtzqR32ePdKECCVRICbfR1053ybC_C52juiX!2e10!4m2!3m1!1s0x47a851c3d22e48bf:0xac30b9bc86e6bd60"
+        },
+        {
+          "name": "places/ChIJv0gu0sNRqEcRYL3mhry5MKw/photos/AcnlKN0_fibVVS7Z0MPLONoTv-N-BA4U-nA-WVFryrNMt9dybbvHuBblOsaLt-n4MJxaTcb2QaocZHWOFWGYHfOnvXvJ0FZWwxtiuQ-XWYOxkzRTbPsrs73O5WLsG2XevHfDLk4QDP3g_AR3g79GXvtMayR0szlzJNGQ5rYEp_kFkfk6jaa-1ghko68QEqAKbPjR_jegTAJ0buKR9RIlFCz0GNQwDpa6fVdee2ys8kZXX3LrqppNMx5DMfEpzh0CYFQ3RVAsZXQ8pV5utYBViiBi8ecUGfO4rgfgpBfNWlomkxVmkw",
+          "widthPx": 1044,
+          "heightPx": 1043,
+          "authorAttributions": [
+            {
+              "displayName": "Zimt & Zucker",
+              "uri": "https://maps.google.com/maps/contrib/107708384961915310376",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWavIVcrV54SrtmQmW-U_DhOa8R4kaaEze0U5mZGcmJXZqpfQQ=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipOI4DTap723Hde-m_xcjRrNld9AdcStDCf-Hioz&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipOI4DTap723Hde-m_xcjRrNld9AdcStDCf-Hioz!2e10!4m2!3m1!1s0x47a851c3d22e48bf:0xac30b9bc86e6bd60"
+        },
+        {
+          "name": "places/ChIJv0gu0sNRqEcRYL3mhry5MKw/photos/AcnlKN2Fa9bEMA7cwzRrdF2psNrRmKS_hVuoA8brG5bL3SLjvXFUbcW5ssIEUzItG5hQxTkQ48UeKiU9x_YbMzgSAp857rixnejIQFLfh3yoOocfGF5q0PBsT_7FM88RVfvsMpbi6Pt0LD7xMC3bIfu7CyAyBrhnTAI1XZIDDLPVO1J94mGFEF0m9XH5-1i5rLi_pJuTnHMQPGvaj7XNP3OtfaElL7tRBEM84B_H75LHm_UnaBWFbzQJ47JMTl6pHoRDkIUbdXCPTCvTqhdJTf_nACWz3s6FdHbD__cAAJ6IUKB4wPxRyPU2N8ams0LQFfmUGNTyWFwBgJIFA1Sqz9tZ4zOMOEMuqsg8pwL9ZBtWY0HjCWkKaft_EmxwY4_lq9Sn_tHyLlwOqlh9PVF-Lt9QSLN4K1yWm-MBXBRaSz7Iq6hzBx4HvDmYcW3dFbUMShz6",
+          "widthPx": 3000,
+          "heightPx": 4000,
+          "authorAttributions": [
+            {
+              "displayName": "elisa cutulle",
+              "uri": "https://maps.google.com/maps/contrib/111655334375692680707",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVSeHLXaCvlq_pCy0xNXAZnvC-zblLvIPUBlASq_i_Ai-eTdXM=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhA_D23AyJ3kO7owjuz57P7m&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhA_D23AyJ3kO7owjuz57P7m!2e10!4m2!3m1!1s0x47a851c3d22e48bf:0xac30b9bc86e6bd60"
+        },
+        {
+          "name": "places/ChIJv0gu0sNRqEcRYL3mhry5MKw/photos/AcnlKN1mV6lboAAq06pQR7O5ogL-RzIOWwQAUokTeonIOgjG5hYGToyxy-tgTH91zzdzY6h3HjIyFoLH6XDwCF99JH-UFN-7Mpou2CukbVeP45o67JRNolMU2RQMvlrImTacLA99l8ao70tvv4sMyuFTnqg3k8yCW4xyiROwrWVOUHomIfEc2nHEJ293gu6whDI3r9CWr9tW36Rt5NtY4_RKkoZ7QErtFrEOvLZwfXjyQMZ0jG9h66TBLALZjitxJc3fwIcQbFDt-_akOyHcq7KEqxD-RXYqKQ5CAAhU-AmdPcMYvyUcaLE27F376WvXMUlRsmNLGcyWEWhVv1UlFSveFOmUuqxgP93bXnrzD6zItWnTjw9GN-sY0-g9rm6_SsBuZhhbEvTGjM7uhNld_zqURwIQufYYOQUKJ_Jm7FeRFCJO4DFU98yFWw7aLvePrA",
+          "widthPx": 3024,
+          "heightPx": 4032,
+          "authorAttributions": [
+            {
+              "displayName": "Gabriele Altmann",
+              "uri": "https://maps.google.com/maps/contrib/117087009051144492446",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLqjwroIARKF0zClS0SVjXkIuHVH9PchbR0KGa5sRawSuUA9w=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhChgHn2UnxehuPOcd1R7FoL&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhChgHn2UnxehuPOcd1R7FoL!2e10!4m2!3m1!1s0x47a851c3d22e48bf:0xac30b9bc86e6bd60"
+        },
+        {
+          "name": "places/ChIJv0gu0sNRqEcRYL3mhry5MKw/photos/AcnlKN1d7o2ypEJ8ItWAD1RbNr-EujRH5HhjV-q85i3nAGGeMG7bK0Y4sTsz5Yu51OauOIIk_Gd-9M5kgUSzYv4ZUzQ0Lxs2eheJpjYc2Jsld-gJmB-Otpf_JFmtX4Dk6TDPG5Qcq4CKgHijzcoIgBx1L47Ytv6plnod6C6UrInXBzOsmNrwVcs-AnlnpMVPKocSOq9YbOK_CLtDFh6lWajtT3g-BOScBhxkMu4XLT_12L5QVcVWh_HrsaZlt_RUFOHCbMApj6gH9qcnagEDTXy1PRaHCI8HjJHvHYbVRmgoi5JY7rmftBrzhL7fiQQfmPoB6_SvCM2_jaXN0gCoc6TPq-W2tc_b3MNwxMd-1eQvHkFVSNVMGw151GW4sNKfvp5QemXpSHI5J3yoPoo9MW7sYT4GxvTl7CoadEw8l79TNsB1Dy_B_eVtMTJLweD5eA",
+          "widthPx": 4800,
+          "heightPx": 3600,
+          "authorAttributions": [
+            {
+              "displayName": "Christian Heinze",
+              "uri": "https://maps.google.com/maps/contrib/116913797847873065532",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLFN3X_HYhyQHwwELk7okKmjJuSxtEXLggBqKAsJJeOr1b2hQ=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhAsZ1QAKJSRoe-5P8F6B6m1&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAsZ1QAKJSRoe-5P8F6B6m1!2e10!4m2!3m1!1s0x47a851c3d22e48bf:0xac30b9bc86e6bd60"
+        },
+        {
+          "name": "places/ChIJv0gu0sNRqEcRYL3mhry5MKw/photos/AcnlKN0RcMHVkytFaJIpZf47Azuwe1-1gq8Cr0TNDFNtqj9f6BM8KxTtsQzzRGjESgjdjdyJWEtWm0seVWCnx8tcaNdqReagPIOaIds9bvQa9ejcjRd71gdQxLEYxluE2oT_bsRY4myMIwcMXBlmNcJVtb0lQcyXq8Us_yXYm3VL-oaCE96ySmQzBo2fjvbGA_hlnT6_NSF2YbIvrPtrHlnZtCFCXLJ681_Kkd0pjU-nqi9iG_q6GrXrXHBafzEzT8fXZDcfVh5bv-9nycbuzb5jOZ0Sev7EhsgI203KlQDz4eFZZsVOJiiJpVh3Lekz2aXGIkFJGbXShZg98kiHnZfNDp05VA4gpr9UHXt_jVvD42FsRunqIoryWf0icVnv-TSy56w5an7e6u3lbpOBdoZLhg9b8pgYqMQIT-qEErmcoUqcJapNsBFNLi_wL2HxU7aa",
+          "widthPx": 1600,
+          "heightPx": 1200,
+          "authorAttributions": [
+            {
+              "displayName": "Melanie Hoffert",
+              "uri": "https://maps.google.com/maps/contrib/115990790883948924961",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWw9dpd9yIuUtFa-ZmLUFQNFP_eKbz_ljQjg3Ag8ziTdv0Q8-WM=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhANMe76cS6IeS0zxAXdzsQI&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhANMe76cS6IeS0zxAXdzsQI!2e10!4m2!3m1!1s0x47a851c3d22e48bf:0xac30b9bc86e6bd60"
+        },
+        {
+          "name": "places/ChIJv0gu0sNRqEcRYL3mhry5MKw/photos/AcnlKN0lrQposjNrrBO5hcdi-vcgLHLZmZyahcpzrnMrkK90XvLYkZnQcOP3b8-xaqyK4pobs3L-TAKm8ptsMgiMw133K0JAwMydVu_5qkZz8ZHllpO1rPIgCCqRqriewV55Woj9TB485wHipsdiVlvKrcd5h8JgM4f_Fa6WRgGbX25-vaXkLilN-X8NOUKaVRJPCfeJ2TfcLxH6k-zKsQMQ8mdv9FzHgRwHCzI4W0otZ8_AqnbRTpo2u7A7kI_NsOBMYjyJ4FRXOMeTJxvYKGtjGL7Vu-iH1eshhNL_p8EGQhfIAcIjgqNTdD4oyvXDoxrOE4GDBkPJSU-kixjaK4bzCQvOxC05y0eD26HPqNizoyjeq-B2spNSmiOLE_eu1kXgdFya03Lef525SgfEIfa39q5-bHCYkn0jvjf2LEZRu0rl6bT2ZwIHkD00FezN7I9-",
+          "widthPx": 4800,
+          "heightPx": 3600,
+          "authorAttributions": [
+            {
+              "displayName": "Puh der zucker",
+              "uri": "https://maps.google.com/maps/contrib/103330302047611459466",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIQ_jZIIeUHsg6pAlWVqBQIRq6VjGlftz2yDhP1nuYaMzM-2A=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhC9aE9Jcph94UcI3aNUzRJV&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhC9aE9Jcph94UcI3aNUzRJV!2e10!4m2!3m1!1s0x47a851c3d22e48bf:0xac30b9bc86e6bd60"
+        },
+        {
+          "name": "places/ChIJv0gu0sNRqEcRYL3mhry5MKw/photos/AcnlKN0pa9XZ8qUB-b9MFXCaIW_05FyT1zU_Ej4dxtiJr7G79euo_fBq_V7--PljMa_IH7k2RjfxV_J94zx2rDLeaaFmCg3_Mz5MwtHJdtzfVsiTWX_JrHnbNS6jMPGmDWKFA5wsSTM2NNtc0KCCXldD-kFOF57_67Llc2YhyHSBStlHFbh7cmcSVJevsifKyTMD0mReu1zZMS-ojAKEcuRG-ELc5OEYtCSEl52tz1jUiVajCU88Q50ybbFuPWOqrnl9nj3R68ReXWT7fcjmUa9xyWgP-iuTcRc4Kc-uhyuq3v512BX15kcQ7fpmvcnlcE2LX5tzGd5B1Hgvr_uLgBgOx-dge8o8_pVK4fZEy-NsSbJXzxSLQyPvp3gv-ZcEvUxa5geqoPWBNpoG12zwvWBOmfNT3jbVqmTr3g_WUEy-nqmxGtq7w5WrjoirghR6MS06",
+          "widthPx": 3072,
+          "heightPx": 4080,
+          "authorAttributions": [
+            {
+              "displayName": "Silvia K.",
+              "uri": "https://maps.google.com/maps/contrib/112612353389012532851",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJoBsZ-qFg9eNnWfcYUJnFJdE7F98eMNE-NBsUJChjk-3x_MA=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhCmkAy9G0N5t9f7xTr6pRdQ&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCmkAy9G0N5t9f7xTr6pRdQ!2e10!4m2!3m1!1s0x47a851c3d22e48bf:0xac30b9bc86e6bd60"
+        },
+        {
+          "name": "places/ChIJv0gu0sNRqEcRYL3mhry5MKw/photos/AcnlKN0Itd2hb_21uK7sJ-yZytKZOz88OgeEbP_RU7ErXAn0cc_qP6CNgQH64e5FgXVkZW6lJhAxPTd3FK8HADxzRs_pUKdFqY53Q6ZTBA3WJfax9udqMdNSvx5u3COH0B2smnMo63cPbG-u0PnKj3AeZUHDO0KWfc6m5SQJ9nJl-NDKceQxYX_BXWXHs4_qVzPGjEFKlsU33EHnKIrvYM6yFPOXDb5gwNoDTbnzTMhVXh1B5GjQQa80abJExESSA1ElhBbYmcoqXd4PS5izjrydDrOi0WH3OdvTRrpQ9gx8C8j_98u8aGJ2qVfBigCmDLrA0o1u4YiXhEn_9XkRWdyH_xtGEwN0m3BisUXDG1COpqw5k6YXjU407Hqucr_rpxFjB13oTMOXuEnQ1PLZEeWTGWCMbvvtr1c-6GPhMP1C51n76KPae_bgfkVEWqFuRA",
+          "widthPx": 4032,
+          "heightPx": 3024,
+          "authorAttributions": [
+            {
+              "displayName": "Z O L U",
+              "uri": "https://maps.google.com/maps/contrib/108256075511040692703",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVxhgCpfbs6irMCagiUjh5PpeYiiSB0QsaAxCJlT3cLSMQpqhY=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhCA6TW5ai9GJwWapECJbX2p&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCA6TW5ai9GJwWapECJbX2p!2e10!4m2!3m1!1s0x47a851c3d22e48bf:0xac30b9bc86e6bd60"
+        },
+        {
+          "name": "places/ChIJv0gu0sNRqEcRYL3mhry5MKw/photos/AcnlKN3jcbQFmbJi95VudXAnVMMRtB_InjYb5PX6nWWosvEybsw6nxn9SUegJ9W8OmFF3-AwHM_HL_PDaiRC2icR93LHoNSLSVHcIHQkLaC--s-nZypKfLCrSdBFaK6AEtcwZIkSyj6R-ss8vPQdsSyDzFaKJuZkfc08kTfuSgNOHIgZYUCjTs6Rdq4XnetDfEZx_EQwMR-7jF1svETcK9mpOl3rOBU0dMme9O-hlTNxWmQFxp9hkdQSeDlXZG9z8xz2bghE7SyuVRw5n-31GkOQPcv6ewfeGM4BvpmZlixZaMeVYBl2XIaVtu3o-kGVw6X9YcbCYNrgaJBruQ2H17WxkK624fxgNCQ0yLFTghoLxeqlVR7h6l-cE8Qs2tl_AzBb-sI5JdlSHgvg05_auLF4_GQCZC0RGIkYbfJEvH3pv4pCrFOEHVJ9lM0w3XWykZfZ",
+          "widthPx": 4800,
+          "heightPx": 3600,
+          "authorAttributions": [
+            {
+              "displayName": "Julian Morissot",
+              "uri": "https://maps.google.com/maps/contrib/112990646409532917679",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIzxJKppnoJa_H5AYc7D6JUw0PdoSCZj9Un5N7fas4ZioC1bw=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhDZvUv8qP8AXsq37yDXx4U3&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDZvUv8qP8AXsq37yDXx4U3!2e10!4m2!3m1!1s0x47a851c3d22e48bf:0xac30b9bc86e6bd60"
+        }
+      ],
+      "plus_code": {
+        "globalCode": "9F4MG9CM+7P",
+        "compoundCode": "G9CM+7P Berlin, Germany"
+      },
+      "accessibility": {
+        "wheelchairAccessibleParking": false,
+        "wheelchairAccessibleRestroom": true,
+        "wheelchairAccessibleSeating": true
+      },
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "types": [
+        "cafe",
+        "breakfast_restaurant",
+        "restaurant",
+        "coffee_shop",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formatted_phone": null,
+      "current_opening_hours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 8,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 15
+              }
+            },
+            "close": {
+              "day": 0,
+              "hour": 17,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 15
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 8,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 9
+              }
+            },
+            "close": {
+              "day": 1,
+              "hour": 17,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 9
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 8,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 10
+              }
+            },
+            "close": {
+              "day": 2,
+              "hour": 17,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 10
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 8,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 11
+              }
+            },
+            "close": {
+              "day": 3,
+              "hour": 17,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 11
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 8,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 12
+              }
+            },
+            "close": {
+              "day": 4,
+              "hour": 17,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 12
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 8,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 13
+              }
+            },
+            "close": {
+              "day": 5,
+              "hour": 17,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 13
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 8,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 14
+              }
+            },
+            "close": {
+              "day": 6,
+              "hour": 17,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 2,
+                "day": 14
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 8:00 AM – 5:00 PM",
+          "Tuesday: 8:00 AM – 5:00 PM",
+          "Wednesday: 8:00 AM – 5:00 PM",
+          "Thursday: 8:00 AM – 5:00 PM",
+          "Friday: 8:00 AM – 5:00 PM",
+          "Saturday: 8:00 AM – 5:00 PM",
+          "Sunday: 8:00 AM – 5:00 PM"
+        ],
+        "nextCloseTime": "2026-02-09T16:00:00Z"
+      }
+    }
+  ],
+  "query": {
+    "query": "cafe in berlin",
+    "type": "natural_language"
+  }
+}

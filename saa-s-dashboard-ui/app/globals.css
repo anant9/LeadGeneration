@@ -1,0 +1,208 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 98%;
+    --foreground: 160 10% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 160 10% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 160 10% 10%;
+    --primary: 160 84% 39%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 160 10% 94%;
+    --secondary-foreground: 160 10% 15%;
+    --muted: 160 6% 93%;
+    --muted-foreground: 160 5% 45%;
+    --accent: 160 14% 92%;
+    --accent-foreground: 160 10% 12%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 160 8% 88%;
+    --input: 160 8% 88%;
+    --ring: 160 84% 39%;
+    --chart-1: 160 84% 39%;
+    --chart-2: 199 89% 48%;
+    --chart-3: 43 96% 56%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+    --radius: 0.75rem;
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 160 10% 10%;
+    --sidebar-primary: 160 84% 39%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 160 14% 92%;
+    --sidebar-accent-foreground: 160 10% 12%;
+    --sidebar-border: 160 8% 88%;
+    --sidebar-ring: 160 84% 39%;
+    --success: 160 84% 39%;
+    --success-foreground: 0 0% 100%;
+    --warning: 43 96% 56%;
+    --warning-foreground: 43 96% 15%;
+  }
+
+  .dark {
+    --background: 160 10% 4%;
+    --foreground: 160 5% 90%;
+    --card: 160 10% 6.5%;
+    --card-foreground: 160 5% 90%;
+    --popover: 160 10% 6.5%;
+    --popover-foreground: 160 5% 90%;
+    --primary: 160 84% 39%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 160 8% 12%;
+    --secondary-foreground: 160 5% 85%;
+    --muted: 160 6% 12%;
+    --muted-foreground: 160 5% 50%;
+    --accent: 160 8% 14%;
+    --accent-foreground: 160 5% 90%;
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 160 6% 14%;
+    --input: 160 6% 14%;
+    --ring: 160 84% 39%;
+    --chart-1: 160 84% 45%;
+    --chart-2: 199 89% 55%;
+    --chart-3: 43 96% 60%;
+    --chart-4: 280 65% 65%;
+    --chart-5: 340 75% 60%;
+    --sidebar-background: 160 10% 6.5%;
+    --sidebar-foreground: 160 5% 90%;
+    --sidebar-primary: 160 84% 39%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 160 8% 14%;
+    --sidebar-accent-foreground: 160 5% 90%;
+    --sidebar-border: 160 6% 14%;
+    --sidebar-ring: 160 84% 39%;
+    --success: 160 84% 39%;
+    --success-foreground: 0 0% 100%;
+    --warning: 43 96% 56%;
+    --warning-foreground: 43 96% 15%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--muted)) transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: hsl(var(--muted));
+    border-radius: 3px;
+  }
+}
+
+/* AI Grid background */
+.ai-grid {
+  background-image:
+    linear-gradient(hsl(var(--primary) / 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, hsl(var(--primary) / 0.04) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+/* Glow pulse */
+@keyframes glow-pulse {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.8; transform: scale(1.05); }
+}
+.glow-pulse {
+  animation: glow-pulse 4s ease-in-out infinite;
+}
+
+/* Orb float */
+@keyframes orb-float {
+  0%, 100% { transform: translateY(0) translateX(0); }
+  25% { transform: translateY(-20px) translateX(10px); }
+  50% { transform: translateY(-10px) translateX(-10px); }
+  75% { transform: translateY(-30px) translateX(5px); }
+}
+.orb-float {
+  animation: orb-float 8s ease-in-out infinite;
+}
+.orb-float-delayed {
+  animation: orb-float 10s ease-in-out 2s infinite;
+}
+
+/* Beam scan */
+@keyframes beam-scan {
+  0% { transform: translateY(-100%); opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { transform: translateY(300%); opacity: 0; }
+}
+.beam-scan {
+  animation: beam-scan 3s ease-in-out infinite;
+}
+
+/* Typing cursor blink */
+@keyframes cursor-blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+.cursor-blink {
+  animation: cursor-blink 1s step-end infinite;
+}
+
+/* Pulse ring */
+@keyframes pulse-ring {
+  0% { transform: scale(0.8); opacity: 0.5; }
+  50% { transform: scale(1.2); opacity: 0; }
+  100% { transform: scale(0.8); opacity: 0; }
+}
+.pulse-ring {
+  animation: pulse-ring 2s ease-out infinite;
+}
+
+/* Sparkle */
+@keyframes sparkle {
+  0%, 100% { opacity: 0; transform: scale(0) rotate(0deg); }
+  50% { opacity: 1; transform: scale(1) rotate(180deg); }
+}
+.sparkle {
+  animation: sparkle 2s ease-in-out infinite;
+}
+
+/* Data stream */
+@keyframes data-stream {
+  0% { transform: translateY(-8px); opacity: 0; }
+  20% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { transform: translateY(8px); opacity: 0; }
+}
+.data-stream {
+  animation: data-stream 1.5s ease-in-out infinite;
+}
+
+/* Gradient border animation */
+@keyframes gradient-border {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+.gradient-border {
+  background: linear-gradient(135deg, hsl(var(--primary)), hsl(199 89% 48%), hsl(var(--primary)));
+  background-size: 200% 200%;
+  animation: gradient-border 3s ease-in-out infinite;
+}
