@@ -14,6 +14,11 @@ class Settings(BaseSettings):
     
     # Google Maps API
     GOOGLE_MAPS_API_KEY: str = os.getenv("GOOGLE_MAPS_API_KEY", "")
+
+    # External business search provider
+    SEARCH_PROVIDER_API_TOKEN: str = os.getenv("SEARCH_PROVIDER_API_TOKEN", "")
+    SEARCH_PROVIDER_ACTOR_ID: str = os.getenv("SEARCH_PROVIDER_ACTOR_ID", "2Mdma1N6Fd0y3QEjR")
+    SEARCH_PROVIDER_BASE_URL: str = os.getenv("SEARCH_PROVIDER_BASE_URL", "")
     
     # Google Gemini API (legacy; not used when Crawl4AI is enabled)
     GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "")

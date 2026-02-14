@@ -1,6 +1,6 @@
 """Business Schema Models"""
-from typing import Optional, List, Any
-from pydantic import BaseModel, Field, ConfigDict
+from typing import Optional, List
+from pydantic import BaseModel, Field
 
 
 class BusinessSearch(BaseModel):
@@ -49,3 +49,9 @@ class SearchResultsResponse(BaseModel):
     total_results: int = Field(..., description="Total number of results found")
     results: List[BusinessResponse] = Field(default_factory=list)
     query: dict = Field(..., description="Search query parameters")
+
+
+class NaturalLanguageBusinessSearch(BaseModel):
+    """Natural language business search request schema"""
+
+    query: str = Field(..., description="Natural language business search query")
