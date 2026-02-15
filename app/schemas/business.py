@@ -1,5 +1,5 @@
 """Business Schema Models"""
-from typing import Optional, List
+from typing import Optional, List, Any, Dict
 from pydantic import BaseModel, Field
 
 
@@ -41,6 +41,29 @@ class BusinessResponse(BaseModel):
     opening_hours: Optional[dict] = None
 
     photos: Optional[List[str]] = None
+
+    categories: List[str] = Field(default_factory=list)
+    neighborhood: Optional[str] = None
+    street: Optional[str] = None
+    claim_this_business: Optional[bool] = None
+    rank: Optional[int] = None
+    image_url: Optional[str] = None
+    images_count: Optional[int] = None
+    reviews_distribution: Optional[Dict[str, Any]] = None
+
+    temporarily_closed: Optional[bool] = None
+    permanently_closed: Optional[bool] = None
+    is_advertisement: Optional[bool] = None
+
+    cid: Optional[str] = None
+    fid: Optional[str] = None
+    kgmid: Optional[str] = None
+    search_string: Optional[str] = None
+    search_page_url: Optional[str] = None
+    scraped_at: Optional[str] = None
+
+    additional_info: Optional[Dict[str, Any]] = None
+    opening_hours_raw: Optional[List[Dict[str, Any]]] = None
 
 
 class SearchResultsResponse(BaseModel):

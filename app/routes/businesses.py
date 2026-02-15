@@ -28,7 +28,21 @@ def _is_paid_user(user: Optional[models.User]) -> bool:
 def _resolve_max_results(user: Optional[models.User], max_results: Optional[int]) -> int:
     if _is_paid_user(user):
         return min(max_results or settings.MAX_RESULTS, settings.MAX_RESULTS)
-    return min(max_results or 5, 5)
+    return min(max_results or settings.FREE_USER_MAX_RESULTS, settings.FREE_USER_MAX_RESULTS)
+
+
+def _log_response_debug(route_name: str, response_obj: SearchResultsResponse) -> None:
+    if not settings.DEBUG:
+        return
+    if not logger.isEnabledFor(logging.DEBUG):
+        return
+
+    if hasattr(response_obj, "model_dump"):
+        payload = response_obj.model_dump()
+    else:
+        payload = response_obj.dict()
+
+    logger.debug("Final API response for %s: %s", route_name, payload)
 
 
 @router.post("/search", response_model=SearchResultsResponse)
@@ -68,7 +82,7 @@ async def search_businesses(
             user.credits -= 1
             db.commit()
         
-        return SearchResultsResponse(
+        response_payload = SearchResultsResponse(
             total_results=len(results),
             results=results,
             query={
@@ -78,6 +92,8 @@ async def search_businesses(
                 "radius": search_query.radius,
             }
         )
+        _log_response_debug("/search", response_payload)
+        return response_payload
         
     except ValueError as e:
         logger.error(f"Validation error: {str(e)}")
@@ -137,7 +153,7 @@ async def search_by_address(
             user.credits -= 1
             db.commit()
         
-        return SearchResultsResponse(
+        response_payload = SearchResultsResponse(
             total_results=len(results),
             results=results,
             query={
@@ -148,6 +164,8 @@ async def search_by_address(
                 "longitude": longitude,
             }
         )
+        _log_response_debug("/search/by-address", response_payload)
+        return response_payload
         
     except HTTPException:
         raise
@@ -195,11 +213,13 @@ async def search_natural_language(
             user.credits -= 1
             db.commit()
         
-        return SearchResultsResponse(
+        response_payload = SearchResultsResponse(
             total_results=len(results),
             results=results,
             query={"query": query, "type": "natural_language"}
         )
+        _log_response_debug("/search/natural", response_payload)
+        return response_payload
         
     except Exception as e:
         logger.error(f"Error in natural language search: {str(e)}")
@@ -218,7 +238,7 @@ async def search_businesses_external(
     try:
         logger.info("/search/business request received")
         logger.debug("Search query: %s", search_query.query)
-        max_results = _resolve_max_results(user, 5)
+        max_results = _resolve_max_results(user, None)
         parsed = parse_natural_language_query(search_query.query)
         logger.info(
             "Parsed query -> searchItem=%s, location=%s",
@@ -243,6 +263,15 @@ async def search_businesses_external(
             error_item = items[0]
             error_code = error_item.get("error")
             error_desc = error_item.get("errorDescription") or "Search provider error"
+            if error_code == "no_search_results":
+                logger.info("Provider returned no results; responding with empty result set")
+                response_payload = SearchResultsResponse(
+                    total_results=0,
+                    results=[],
+                    query={"query": search_query.query, "type": "natural_language"},
+                )
+                _log_response_debug("/search/business", response_payload)
+                return response_payload
             logger.error("Search provider error: %s - %s", error_code, error_desc)
             raise HTTPException(status_code=502, detail="Search provider error")
 
@@ -255,11 +284,13 @@ async def search_businesses_external(
             user.credits -= 1
             db.commit()
 
-        return SearchResultsResponse(
+        response_payload = SearchResultsResponse(
             total_results=len(results),
             results=results,
             query={"query": search_query.query, "type": "natural_language"},
         )
+        _log_response_debug("/search/business", response_payload)
+        return response_payload
 
     except ValueError as e:
         logger.error(f"Validation error: {str(e)}")
@@ -272,6 +303,12 @@ async def search_businesses_external(
 
 
 def _map_provider_item(item: dict) -> BusinessResponse:
+    def first_non_null(*values):
+        for value in values:
+            if value is not None:
+                return value
+        return None
+
     name = (
         item.get("title")
         or item.get("name")
@@ -288,6 +325,14 @@ def _map_provider_item(item: dict) -> BusinessResponse:
     if not isinstance(types, list):
         types = []
 
+    categories = item.get("categories")
+    if isinstance(categories, str):
+        categories = [categories]
+    if not isinstance(categories, list):
+        categories = []
+    if not categories and types:
+        categories = types
+
     google_maps_url = (
         item.get("googleMapsUrl")
         or item.get("googleMapsUri")
@@ -302,26 +347,29 @@ def _map_provider_item(item: dict) -> BusinessResponse:
     )
 
     location = item.get("location") if isinstance(item.get("location"), dict) else {}
-    latitude = (
-        item.get("lat")
-        or item.get("latitude")
-        or location.get("lat")
-        or location.get("latitude")
-        or 0
+    latitude = first_non_null(
+        item.get("lat"),
+        item.get("latitude"),
+        location.get("lat"),
+        location.get("latitude"),
+        0,
     )
-    longitude = (
-        item.get("lng")
-        or item.get("longitude")
-        or location.get("lng")
-        or location.get("longitude")
-        or 0
+    longitude = first_non_null(
+        item.get("lng"),
+        item.get("longitude"),
+        location.get("lng"),
+        location.get("longitude"),
+        0,
     )
 
-    rating = item.get("rating") or item.get("stars")
+    rating = first_non_null(item.get("rating"), item.get("stars"), item.get("totalScore"))
     user_ratings_total = (
-        item.get("reviewsCount")
-        or item.get("reviewCount")
-        or item.get("totalReviews")
+        first_non_null(
+            item.get("reviewsCount"),
+            item.get("reviewCount"),
+            item.get("totalReviews"),
+            item.get("user_ratings_total"),
+        )
     )
 
     photos = (
@@ -344,34 +392,85 @@ def _map_provider_item(item: dict) -> BusinessResponse:
         photos = cleaned_photos or None
 
     opening_hours = None
-    if isinstance(item.get("openingHours"), dict):
+    raw_opening_hours = item.get("openingHours")
+    if isinstance(raw_opening_hours, dict):
         opening_hours = {
-            "open_now": item.get("openingHours", {}).get("openNow"),
-            "weekday_text": item.get("openingHours", {}).get("weekdayText"),
+            "open_now": raw_opening_hours.get("openNow"),
+            "weekday_text": raw_opening_hours.get("weekdayText"),
         }
+    elif isinstance(raw_opening_hours, list):
+        weekday_text = []
+        for entry in raw_opening_hours:
+            if not isinstance(entry, dict):
+                continue
+            day = entry.get("day")
+            hours = entry.get("hours")
+            if day and hours:
+                weekday_text.append(f"{day}: {hours}")
+        opening_hours = {
+            "open_now": None,
+            "weekday_text": weekday_text or None,
+        }
+    opening_hours_raw = raw_opening_hours if isinstance(raw_opening_hours, list) else None
+
+    photos = photos or ([item.get("imageUrl")] if item.get("imageUrl") else None)
+
+    business_status = first_non_null(item.get("businessStatus"), item.get("status"))
+    if business_status is None:
+        if item.get("permanentlyClosed") is True:
+            business_status = "CLOSED_PERMANENTLY"
+        elif item.get("temporarilyClosed") is True:
+            business_status = "CLOSED_TEMPORARILY"
+        else:
+            business_status = "OPERATIONAL"
+
+    country = first_non_null(item.get("country"), item.get("countryName"), item.get("countryCode"))
 
     result = BusinessResponse(
         name=name,
         place_id=place_id,
         types=types,
         primary_type=types[0] if types else None,
-        business_status=item.get("businessStatus") or item.get("status"),
+        business_status=business_status,
         google_maps_url=google_maps_url,
         formatted_address=formatted_address,
         latitude=float(latitude or 0),
         longitude=float(longitude or 0),
         city=item.get("city"),
         state=item.get("state"),
-        country=item.get("country"),
+        country=country,
         postal_code=item.get("postalCode") or item.get("zip"),
         formatted_phone_number=item.get("phone") or item.get("phoneNumber"),
-        international_phone_number=item.get("internationalPhoneNumber"),
+        international_phone_number=first_non_null(
+            item.get("internationalPhoneNumber"),
+            item.get("phoneUnformatted"),
+            item.get("internationalPhone"),
+        ),
         website=item.get("website") or item.get("domain"),
         rating=rating,
         user_ratings_total=user_ratings_total,
-        price_level=item.get("priceLevel") or item.get("price"),
+        price_level=first_non_null(item.get("priceLevel"), item.get("price")),
         opening_hours=opening_hours,
         photos=photos,
+        categories=categories,
+        neighborhood=item.get("neighborhood"),
+        street=item.get("street"),
+        claim_this_business=item.get("claimThisBusiness"),
+        rank=item.get("rank"),
+        image_url=item.get("imageUrl"),
+        images_count=item.get("imagesCount"),
+        reviews_distribution=item.get("reviewsDistribution"),
+        temporarily_closed=item.get("temporarilyClosed"),
+        permanently_closed=item.get("permanentlyClosed"),
+        is_advertisement=item.get("isAdvertisement"),
+        cid=item.get("cid"),
+        fid=item.get("fid"),
+        kgmid=item.get("kgmid"),
+        search_string=item.get("searchString"),
+        search_page_url=item.get("searchPageUrl"),
+        scraped_at=item.get("scrapedAt"),
+        additional_info=item.get("additionalInfo"),
+        opening_hours_raw=opening_hours_raw,
     )
     if not result.name and not result.place_id:
         logger.debug("Empty mapping for item keys: %s", list(item.keys()))

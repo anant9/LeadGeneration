@@ -36,6 +36,7 @@ class Settings(BaseSettings):
     # Search Settings
     SEARCH_RADIUS: int = 5000  # meters
     MAX_RESULTS: int = 50
+    FREE_USER_MAX_RESULTS: int = int(os.getenv("FREE_USER_MAX_RESULTS", "2"))
     
     # Server Configuration
     API_HOST: str = os.getenv("API_HOST", "0.0.0.0")
