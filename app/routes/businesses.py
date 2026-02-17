@@ -1,7 +1,10 @@
 """Business Routes"""
+import io
+import json
 import logging
-from fastapi import APIRouter, HTTPException, Query, Depends
-from typing import Optional
+from fastapi import APIRouter, HTTPException, Query, Depends, Body, UploadFile, File
+from fastapi.responses import StreamingResponse
+from typing import Optional, Any, Dict, List
 from sqlalchemy.orm import Session
 from app.config import settings
 from app.schemas.business import (
@@ -302,10 +305,162 @@ async def search_businesses_external(
         raise HTTPException(status_code=500, detail="Internal server error")
 
 
+@router.post("/search/business/import", response_model=SearchResultsResponse)
+async def import_apify_businesses(
+    apify_payload: Any = Body(..., description="Raw JSON returned by Apify API"),
+):
+    """
+    Import raw Apify dataset response and convert it to /search/business response format.
+
+    Supported payload shapes:
+    - Direct list of items (common Apify dataset items response)
+    - Object containing one of: items, data, results
+    """
+    try:
+        return _build_import_response(apify_payload, route_name="/search/business/import")
+    except ValueError as e:
+        logger.error("Validation error in Apify import: %s", str(e))
+        raise HTTPException(status_code=400, detail=str(e))
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error("Error importing Apify payload: %s", str(e))
+        raise HTTPException(status_code=500, detail="Internal server error")
+
+
+@router.post("/search/business/import/upload")
+async def import_apify_businesses_upload(
+    file: UploadFile = File(..., description="Apify JSON export file"),
+):
+    """
+    Upload Apify JSON file and download converted /search/business formatted JSON.
+    """
+    try:
+        filename = (file.filename or "").lower()
+        if filename and not filename.endswith(".json"):
+            raise HTTPException(status_code=400, detail="Please upload a .json file")
+
+        content = await file.read()
+        if not content:
+            raise ValueError("Uploaded file is empty")
+
+        try:
+            apify_payload = json.loads(content.decode("utf-8"))
+        except Exception as parse_error:
+            raise ValueError("Uploaded file is not valid JSON") from parse_error
+
+        response_payload = _build_import_response(
+            apify_payload,
+            route_name="/search/business/import/upload",
+        )
+        response_json = _response_payload_to_json(response_payload)
+
+        return StreamingResponse(
+            io.BytesIO(response_json.encode("utf-8")),
+            media_type="application/json",
+            headers={
+                "Content-Disposition": "attachment; filename=converted_businesses.json"
+            },
+        )
+    except ValueError as e:
+        logger.error("Validation error in Apify upload import: %s", str(e))
+        raise HTTPException(status_code=400, detail=str(e))
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error("Error importing Apify upload: %s", str(e))
+        raise HTTPException(status_code=500, detail="Internal server error")
+
+
+def _build_import_response(apify_payload: Any, route_name: str) -> SearchResultsResponse:
+    items, query_text = _extract_apify_items_and_query(apify_payload)
+
+    if _is_provider_error(items):
+        error_item = items[0]
+        error_code = error_item.get("error")
+        error_desc = error_item.get("errorDescription") or "Search provider error"
+        if error_code == "no_search_results":
+            response_payload = SearchResultsResponse(
+                total_results=0,
+                results=[],
+                query={"query": query_text, "type": "natural_language"},
+            )
+            _log_response_debug(route_name, response_payload)
+            return response_payload
+        logger.error("Apify provider error: %s - %s", error_code, error_desc)
+        raise HTTPException(status_code=400, detail="Invalid Apify payload")
+
+    results = [_map_provider_item(item) for item in items]
+    response_payload = SearchResultsResponse(
+        total_results=len(results),
+        results=results,
+        query={"query": query_text, "type": "natural_language"},
+    )
+    _log_response_debug(route_name, response_payload)
+    return response_payload
+
+
+def _response_payload_to_json(response_payload: SearchResultsResponse) -> str:
+    if hasattr(response_payload, "model_dump"):
+        payload = response_payload.model_dump()
+    else:
+        payload = response_payload.dict()
+    return json.dumps(payload, ensure_ascii=False, indent=2)
+
+
+def _extract_apify_items_and_query(payload: Any) -> tuple[List[Dict[str, Any]], str]:
+    if isinstance(payload, list):
+        return _ensure_dict_items(payload), "apify_import"
+
+    if not isinstance(payload, dict):
+        raise ValueError("Payload must be a JSON object or array")
+
+    items_candidate = payload.get("items")
+    if items_candidate is None:
+        items_candidate = payload.get("data")
+    if items_candidate is None:
+        items_candidate = payload.get("results")
+
+    if items_candidate is None:
+        if payload:
+            items_candidate = [payload]
+        else:
+            items_candidate = []
+
+    query_text = (
+        payload.get("query")
+        or payload.get("searchQuery")
+        or payload.get("search_string")
+        or payload.get("searchString")
+        or "apify_import"
+    )
+
+    return _ensure_dict_items(items_candidate), str(query_text)
+
+
+def _ensure_dict_items(items: Any) -> List[Dict[str, Any]]:
+    if items is None:
+        return []
+    if not isinstance(items, list):
+        raise ValueError("Apify payload items must be an array")
+    normalized: List[Dict[str, Any]] = []
+    for item in items:
+        if not isinstance(item, dict):
+            raise ValueError("Each Apify item must be a JSON object")
+        normalized.append(item)
+    return normalized
+
+
 def _map_provider_item(item: dict) -> BusinessResponse:
     def first_non_null(*values):
         for value in values:
             if value is not None:
+                return value
+        return None
+
+    def first_non_empty_str(*values):
+        for value in values:
+            if isinstance(value, str) and value.strip():
                 return value
         return None
 
@@ -333,20 +488,23 @@ def _map_provider_item(item: dict) -> BusinessResponse:
     if not categories and types:
         categories = types
 
-    google_maps_url = (
-        item.get("googleMapsUrl")
-        or item.get("googleMapsUri")
-        or item.get("placeUrl")
-        or item.get("url")
+    location = item.get("location") if isinstance(item.get("location"), dict) else {}
+    google_maps_url = first_non_empty_str(
+        item.get("googleMapsUrl"),
+        item.get("googleMapsUri"),
+        item.get("placeUrl"),
+        item.get("url"),
     )
-    formatted_address = (
-        item.get("formattedAddress")
-        or item.get("address")
-        or item.get("fullAddress")
-        or item.get("location")
+    formatted_address = first_non_empty_str(
+        item.get("formattedAddress"),
+        item.get("address"),
+        item.get("fullAddress"),
+        item.get("streetAddress"),
+        location.get("formattedAddress"),
+        location.get("address"),
+        item.get("location") if isinstance(item.get("location"), str) else None,
     )
 
-    location = item.get("location") if isinstance(item.get("location"), dict) else {}
     latitude = first_non_null(
         item.get("lat"),
         item.get("latitude"),

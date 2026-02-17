@@ -54,3 +54,6 @@ dist/
 
 # Local data
 results/
+DATA_Export_brass/
+saa-s-dashboard-ui/
+frontend/

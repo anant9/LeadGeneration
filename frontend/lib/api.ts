@@ -123,6 +123,28 @@ export const searchBusinesses = async (query: string, maxResults: number = 5) =>
   return response.data;
 };
 
+export const importApifyJsonFile = async (file: File) => {
+  const formData = new FormData();
+  formData.append('file', file);
+
+  const response = await apiClient.post('/api/v1/search/business/import/upload', formData, {
+    headers: {
+      'Content-Type': 'multipart/form-data',
+    },
+    responseType: 'blob',
+  });
+
+  const contentDisposition = response.headers['content-disposition'] || '';
+  const filenameMatch = contentDisposition.match(/filename=([^;]+)/i);
+  const filename = filenameMatch ? filenameMatch[1].replace(/"/g, '').trim() : 'converted_businesses.json';
+
+  const blob: Blob = response.data;
+  const text = await blob.text();
+  const data = JSON.parse(text);
+
+  return { data, blob, filename };
+};
+
 // CRM Connection APIs
 export const checkCRMConnection = async (provider: string = 'hubspot') => {
   const response = await apiClient.get(`/api/v1/${provider}/status`);

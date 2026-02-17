@@ -9,7 +9,7 @@ import {
   Loading,
 } from '@/components';
 import { useAppStore } from '@/lib/store';
-import { searchBusinesses, createCheckoutSession } from '@/lib/api';
+import { searchBusinesses, createCheckoutSession, importApifyJsonFile } from '@/lib/api';
 import { GoogleLoginButton } from '@/components';
 
 interface Business {
@@ -45,6 +45,9 @@ interface Business {
 
 export default function SearchPage() {
   const [loading, setLoading] = useState(false);
+  const [importLoading, setImportLoading] = useState(false);
+  const [importFile, setImportFile] = useState<File | null>(null);
+  const [datasetOnlyView, setDatasetOnlyView] = useState(false);
   const [billingLoading, setBillingLoading] = useState<string | null>(null);
   const router = useRouter();
   
@@ -108,6 +111,137 @@ export default function SearchPage() {
       setBillingLoading(null);
     }
   };
+
+  const handleImportApifyJson = async () => {
+    if (!importFile) {
+      setMessage('Please choose a JSON file to import', 'warning');
+      return;
+    }
+
+    setImportLoading(true);
+    try {
+      const { data, blob, filename } = await importApifyJsonFile(importFile);
+      const nextResults = data.results || [];
+      setResults(nextResults);
+
+      const url = window.URL.createObjectURL(blob);
+      const anchor = document.createElement('a');
+      anchor.href = url;
+      anchor.download = filename;
+      document.body.appendChild(anchor);
+      anchor.click();
+      anchor.remove();
+      window.URL.revokeObjectURL(url);
+
+      setMessage(`Imported ${nextResults.length} businesses and downloaded converted JSON`, 'success');
+    } catch (error: any) {
+      setMessage(
+        error.response?.data?.detail || error.message || 'Import failed',
+        'error'
+      );
+    } finally {
+      setImportLoading(false);
+    }
+  };
+
+  const renderResultsTable = () => (
+    <div className="overflow-x-auto">
+      <table className="min-w-full text-xs text-left">
+        <thead className="text-gray-500">
+          <tr>
+            <th className="py-2 pr-3">Name</th>
+            <th className="py-2 pr-3">Place ID</th>
+            <th className="py-2 pr-3">Primary Type</th>
+            <th className="py-2 pr-3">Business Status</th>
+            <th className="py-2 pr-3">Maps URL</th>
+            <th className="py-2 pr-3">Address</th>
+            <th className="py-2 pr-3">City</th>
+            <th className="py-2 pr-3">State</th>
+            <th className="py-2 pr-3">Country</th>
+            <th className="py-2 pr-3">Postal</th>
+            <th className="py-2 pr-3">Phone</th>
+            <th className="py-2 pr-3">Intl Phone</th>
+            <th className="py-2 pr-3">Website</th>
+            <th className="py-2 pr-3">Rating</th>
+            <th className="py-2 pr-3">Ratings</th>
+            <th className="py-2 pr-3">Lat</th>
+            <th className="py-2 pr-3">Lng</th>
+          </tr>
+        </thead>
+        <tbody>
+          {results.map((business, idx) => (
+            <tr key={idx} className="border-t">
+              <td className="py-2 pr-3 font-medium text-gray-900">{business.name}</td>
+              <td className="py-2 pr-3 text-gray-700 break-all">{business.place_id}</td>
+              <td className="py-2 pr-3 text-gray-700">{business.primary_type || '-'}</td>
+              <td className="py-2 pr-3 text-gray-700">{business.business_status || '-'}</td>
+              <td className="py-2 pr-3 text-blue-600 max-w-48 truncate">
+                {business.google_maps_url ? (
+                  <a
+                    href={business.google_maps_url}
+                    className="hover:underline"
+                    target="_blank"
+                    rel="noreferrer"
+                    title={business.google_maps_url}
+                  >
+                    {business.google_maps_url}
+                  </a>
+                ) : (
+                  '-'
+                )}
+              </td>
+              <td className="py-2 pr-3 text-gray-700">{business.formatted_address || '-'}</td>
+              <td className="py-2 pr-3 text-gray-700">{business.city || '-'}</td>
+              <td className="py-2 pr-3 text-gray-700">{business.state || '-'}</td>
+              <td className="py-2 pr-3 text-gray-700">{business.country || '-'}</td>
+              <td className="py-2 pr-3 text-gray-700">{business.postal_code || '-'}</td>
+              <td className="py-2 pr-3 text-gray-700">{business.formatted_phone_number || '-'}</td>
+              <td className="py-2 pr-3 text-gray-700">{business.international_phone_number || '-'}</td>
+              <td className="py-2 pr-3 text-blue-600 max-w-48 truncate">
+                {business.website ? (
+                  <a
+                    href={business.website}
+                    className="hover:underline"
+                    target="_blank"
+                    rel="noreferrer"
+                    title={business.website}
+                  >
+                    {business.website}
+                  </a>
+                ) : (
+                  '-'
+                )}
+              </td>
+              <td className="py-2 pr-3 text-gray-700">{business.rating ?? '-'}</td>
+              <td className="py-2 pr-3 text-gray-700">{business.user_ratings_total ?? '-'}</td>
+              <td className="py-2 pr-3 text-gray-700">{business.latitude}</td>
+              <td className="py-2 pr-3 text-gray-700">{business.longitude}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+
+  if (datasetOnlyView && results.length > 0) {
+    return (
+      <>
+        <Head>
+          <title>Dataset View</title>
+        </Head>
+        <div className="min-h-screen bg-white p-2">
+          <div className="flex justify-end mb-2">
+            <Button type="button" variant="secondary" size="sm" onClick={() => setDatasetOnlyView(false)}>
+              Exit Dataset View
+            </Button>
+          </div>
+          <div className="h-[calc(100vh-48px)] overflow-auto">
+            {renderResultsTable()}
+          </div>
+        </div>
+      </>
+    );
+  }
 
   return (
     <>
@@ -185,87 +319,38 @@ export default function SearchPage() {
             </form>
           </Card>
 
+          <Card title="📥 Import Apify JSON">
+            <div className="space-y-4">
+              <input
+                type="file"
+                accept="application/json,.json"
+                onChange={(e) => setImportFile(e.target.files?.[0] || null)}
+                disabled={importLoading}
+                className="block w-full text-sm text-gray-600 file:mr-3 file:rounded-md file:border-0 file:bg-gray-100 file:px-3 file:py-2 file:text-sm file:font-medium file:text-gray-700 hover:file:bg-gray-200"
+              />
+              <Button
+                type="button"
+                variant="secondary"
+                fullWidth
+                loading={importLoading}
+                onClick={handleImportApifyJson}
+              >
+                Convert & Download JSON
+              </Button>
+            </div>
+          </Card>
+
           {loading && <Loading />}
 
           {results.length > 0 && (
             <>
+              <div className="flex justify-end">
+                <Button type="button" variant="secondary" size="sm" onClick={() => setDatasetOnlyView(true)}>
+                  Full Dataset View
+                </Button>
+              </div>
               <Card title="📋 Results Table" subtitle="Google Maps Places API (V1)">
-                <div className="overflow-x-auto">
-                  <table className="min-w-full text-xs text-left">
-                    <thead className="text-gray-500">
-                      <tr>
-                        <th className="py-2 pr-3">Name</th>
-                        <th className="py-2 pr-3">Place ID</th>
-                        <th className="py-2 pr-3">Primary Type</th>
-                        <th className="py-2 pr-3">Business Status</th>
-                        <th className="py-2 pr-3">Maps URL</th>
-                        <th className="py-2 pr-3">Address</th>
-                        <th className="py-2 pr-3">City</th>
-                        <th className="py-2 pr-3">State</th>
-                        <th className="py-2 pr-3">Country</th>
-                        <th className="py-2 pr-3">Postal</th>
-                        <th className="py-2 pr-3">Phone</th>
-                        <th className="py-2 pr-3">Intl Phone</th>
-                        <th className="py-2 pr-3">Website</th>
-                        <th className="py-2 pr-3">Rating</th>
-                        <th className="py-2 pr-3">Ratings</th>
-                        <th className="py-2 pr-3">Lat</th>
-                        <th className="py-2 pr-3">Lng</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {results.map((business, idx) => (
-                        <tr key={idx} className="border-t">
-                          <td className="py-2 pr-3 font-medium text-gray-900">{business.name}</td>
-                          <td className="py-2 pr-3 text-gray-700 break-all">{business.place_id}</td>
-                          <td className="py-2 pr-3 text-gray-700">{business.primary_type || '-'}</td>
-                          <td className="py-2 pr-3 text-gray-700">{business.business_status || '-'}</td>
-                          <td className="py-2 pr-3 text-blue-600 max-w-48 truncate">
-                            {business.google_maps_url ? (
-                              <a
-                                href={business.google_maps_url}
-                                className="hover:underline"
-                                target="_blank"
-                                rel="noreferrer"
-                                title={business.google_maps_url}
-                              >
-                                {business.google_maps_url}
-                              </a>
-                            ) : (
-                              '-'
-                            )}
-                          </td>
-                          <td className="py-2 pr-3 text-gray-700">{business.formatted_address || '-'}</td>
-                          <td className="py-2 pr-3 text-gray-700">{business.city || '-'}</td>
-                          <td className="py-2 pr-3 text-gray-700">{business.state || '-'}</td>
-                          <td className="py-2 pr-3 text-gray-700">{business.country || '-'}</td>
-                          <td className="py-2 pr-3 text-gray-700">{business.postal_code || '-'}</td>
-                          <td className="py-2 pr-3 text-gray-700">{business.formatted_phone_number || '-'}</td>
-                          <td className="py-2 pr-3 text-gray-700">{business.international_phone_number || '-'}</td>
-                          <td className="py-2 pr-3 text-blue-600 max-w-48 truncate">
-                            {business.website ? (
-                              <a
-                                href={business.website}
-                                className="hover:underline"
-                                target="_blank"
-                                rel="noreferrer"
-                                title={business.website}
-                              >
-                                {business.website}
-                              </a>
-                            ) : (
-                              '-'
-                            )}
-                          </td>
-                          <td className="py-2 pr-3 text-gray-700">{business.rating ?? '-'}</td>
-                          <td className="py-2 pr-3 text-gray-700">{business.user_ratings_total ?? '-'}</td>
-                          <td className="py-2 pr-3 text-gray-700">{business.latitude}</td>
-                          <td className="py-2 pr-3 text-gray-700">{business.longitude}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
+                {renderResultsTable()}
               </Card>
             </>
           )}
