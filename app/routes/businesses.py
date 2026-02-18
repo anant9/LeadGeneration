@@ -244,12 +244,13 @@ async def search_businesses_external(
         max_results = _resolve_max_results(user, None)
         parsed = parse_natural_language_query(search_query.query)
         logger.info(
-            "Parsed query -> searchItem=%s, location=%s",
+            "Parsed query -> searchItem=%s, location=%s, language=%s",
             parsed.get("searchItem"),
             parsed.get("location"),
+            parsed.get("language"),
         )
         payload = {
-            "language": "en",
+            "language": parsed.get("language", "en"),
             "locationQuery": parsed["location"],
             "maxCrawledPlacesPerSearch": max_results,
             "searchStringsArray": [parsed["searchItem"]],
@@ -271,7 +272,11 @@ async def search_businesses_external(
                 response_payload = SearchResultsResponse(
                     total_results=0,
                     results=[],
-                    query={"query": search_query.query, "type": "natural_language"},
+                    query={
+                        "query": search_query.query,
+                        "type": "natural_language",
+                        "language": parsed.get("language", "en"),
+                    },
                 )
                 _log_response_debug("/search/business", response_payload)
                 return response_payload
@@ -290,7 +295,11 @@ async def search_businesses_external(
         response_payload = SearchResultsResponse(
             total_results=len(results),
             results=results,
-            query={"query": search_query.query, "type": "natural_language"},
+            query={
+                "query": search_query.query,
+                "type": "natural_language",
+                "language": parsed.get("language", "en"),
+            },
         )
         _log_response_debug("/search/business", response_payload)
         return response_payload
