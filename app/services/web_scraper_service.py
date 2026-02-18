@@ -6,8 +6,10 @@ Modular service for scraping contact/about pages
 import requests
 from typing import Optional, Dict, List
 import logging
+import urllib3
 
 logger = logging.getLogger(__name__)
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
 class WebScraperService:
@@ -70,7 +72,12 @@ class WebScraperService:
                 ua = self._user_agents[attempt % len(self._user_agents)]
                 headers = {**self.headers, 'User-Agent': ua, 'Referer': url}
                 try:
-                    response = self.session.get(url, headers=headers, timeout=self.timeout, allow_redirects=True)
+                    response = self.session.get(
+                        url,
+                        headers=headers,
+                        timeout=self.timeout,
+                        allow_redirects=True,
+                    )
                     # If not a 403, break and parse
                     if response.status_code == 403:
                         logger.debug(f"Attempt {attempt+1}: 403 for {url} with UA={ua}")
@@ -97,6 +104,27 @@ class WebScraperService:
 
                     response.raise_for_status()
                     break
+                except requests.exceptions.SSLError as exc:
+                    last_exc = exc
+                    logger.debug(f"Attempt {attempt+1} SSL verification failed for {url}: {exc}")
+
+                    # Fallback for websites with incomplete certificate chains:
+                    # retry same request without certificate verification.
+                    try:
+                        response = self.session.get(
+                            url,
+                            headers=headers,
+                            timeout=self.timeout,
+                            allow_redirects=True,
+                            verify=False,
+                        )
+                        response.raise_for_status()
+                        logger.warning(f"SSL verify disabled for {url} due to certificate validation failure")
+                        break
+                    except requests.exceptions.RequestException as insecure_exc:
+                        last_exc = insecure_exc
+                        logger.debug(f"Attempt {attempt+1} insecure retry failed for {url}: {insecure_exc}")
+                        continue
                 except requests.exceptions.RequestException as exc:
                     last_exc = exc
                     logger.debug(f"Attempt {attempt+1} request failed for {url}: {exc}")

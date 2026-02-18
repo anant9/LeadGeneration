@@ -9,7 +9,7 @@ import {
   Loading,
 } from '@/components';
 import { useAppStore } from '@/lib/store';
-import { searchBusinesses, createCheckoutSession, importApifyJsonFile } from '@/lib/api';
+import { searchBusinesses, createCheckoutSession, importProviderJsonFile } from '@/lib/api';
 import { GoogleLoginButton } from '@/components';
 
 interface Business {
@@ -112,7 +112,7 @@ export default function SearchPage() {
     }
   };
 
-  const handleImportApifyJson = async () => {
+  const handleImportProviderJson = async () => {
     if (!importFile) {
       setMessage('Please choose a JSON file to import', 'warning');
       return;
@@ -120,7 +120,7 @@ export default function SearchPage() {
 
     setImportLoading(true);
     try {
-      const { data, blob, filename } = await importApifyJsonFile(importFile);
+      const { data, blob, filename } = await importProviderJsonFile(importFile);
       const nextResults = data.results || [];
       setResults(nextResults);
 
@@ -319,7 +319,7 @@ export default function SearchPage() {
             </form>
           </Card>
 
-          <Card title="📥 Import Apify JSON">
+          <Card title="📥 Import Provider JSON">
             <div className="space-y-4">
               <input
                 type="file"
@@ -333,7 +333,7 @@ export default function SearchPage() {
                 variant="secondary"
                 fullWidth
                 loading={importLoading}
-                onClick={handleImportApifyJson}
+                onClick={handleImportProviderJson}
               >
                 Convert & Download JSON
               </Button>

@@ -123,7 +123,7 @@ export const searchBusinesses = async (query: string, maxResults: number = 5) =>
   return response.data;
 };
 
-export const importApifyJsonFile = async (file: File) => {
+export const importProviderJsonFile = async (file: File) => {
   const formData = new FormData();
   formData.append('file', file);
 

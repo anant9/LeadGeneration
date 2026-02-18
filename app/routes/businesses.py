@@ -15,7 +15,11 @@ from app.schemas.business import (
 )
 from app.services.google_maps_service import GoogleMapsService
 from app.services.business_search_provider_service import BusinessSearchProviderService
-from app.services.natural_language_search_service import parse_natural_language_query
+from app.services.natural_language_search_service import (
+    parse_natural_language_query,
+    is_website_input,
+    suggest_customer_queries_from_website,
+)
 from app.utils.auth import get_optional_user
 from app.db.session import get_db
 from app.db import models
@@ -237,10 +241,32 @@ async def search_businesses_external(
 ):
     """
     Search for businesses using natural language query
+
+    If the query is a website URL, this endpoint reads website content and
+    returns 5 suggested natural-language queries to help find potential
+    customers for that business.
     """
     try:
         logger.info("/search/business request received")
         logger.debug("Search query: %s", search_query.query)
+
+        if is_website_input(search_query.query):
+            logger.info("Website input detected for /search/business")
+            website_suggestions = suggest_customer_queries_from_website(search_query.query)
+            response_payload = SearchResultsResponse(
+                total_results=0,
+                results=[],
+                query={
+                    "query": search_query.query,
+                    "type": "website_query_suggestions",
+                    "website_url": website_suggestions.get("websiteUrl"),
+                    "language": website_suggestions.get("language", "en"),
+                    "suggested_queries": website_suggestions.get("suggestedQueries", []),
+                },
+            )
+            _log_response_debug("/search/business", response_payload)
+            return response_payload
+
         max_results = _resolve_max_results(user, None)
         parsed = parse_natural_language_query(search_query.query)
         logger.info(
@@ -315,34 +341,34 @@ async def search_businesses_external(
 
 
 @router.post("/search/business/import", response_model=SearchResultsResponse)
-async def import_apify_businesses(
-    apify_payload: Any = Body(..., description="Raw JSON returned by Apify API"),
+async def import_provider_businesses(
+    provider_payload: Any = Body(..., description="Raw JSON returned by provider API"),
 ):
     """
-    Import raw Apify dataset response and convert it to /search/business response format.
+    Import raw provider dataset response and convert it to /search/business response format.
 
     Supported payload shapes:
-    - Direct list of items (common Apify dataset items response)
+    - Direct list of items (common provider dataset items response)
     - Object containing one of: items, data, results
     """
     try:
-        return _build_import_response(apify_payload, route_name="/search/business/import")
+        return _build_import_response(provider_payload, route_name="/search/business/import")
     except ValueError as e:
-        logger.error("Validation error in Apify import: %s", str(e))
+        logger.error("Validation error in provider import: %s", str(e))
         raise HTTPException(status_code=400, detail=str(e))
     except HTTPException:
         raise
     except Exception as e:
-        logger.error("Error importing Apify payload: %s", str(e))
+        logger.error("Error importing provider payload: %s", str(e))
         raise HTTPException(status_code=500, detail="Internal server error")
 
 
 @router.post("/search/business/import/upload")
-async def import_apify_businesses_upload(
-    file: UploadFile = File(..., description="Apify JSON export file"),
+async def import_provider_businesses_upload(
+    file: UploadFile = File(..., description="Provider JSON export file"),
 ):
     """
-    Upload Apify JSON file and download converted /search/business formatted JSON.
+    Upload provider JSON file and download converted /search/business formatted JSON.
     """
     try:
         filename = (file.filename or "").lower()
@@ -354,12 +380,12 @@ async def import_apify_businesses_upload(
             raise ValueError("Uploaded file is empty")
 
         try:
-            apify_payload = json.loads(content.decode("utf-8"))
+            provider_payload = json.loads(content.decode("utf-8"))
         except Exception as parse_error:
             raise ValueError("Uploaded file is not valid JSON") from parse_error
 
         response_payload = _build_import_response(
-            apify_payload,
+            provider_payload,
             route_name="/search/business/import/upload",
         )
         response_json = _response_payload_to_json(response_payload)
@@ -372,17 +398,17 @@ async def import_apify_businesses_upload(
             },
         )
     except ValueError as e:
-        logger.error("Validation error in Apify upload import: %s", str(e))
+        logger.error("Validation error in provider upload import: %s", str(e))
         raise HTTPException(status_code=400, detail=str(e))
     except HTTPException:
         raise
     except Exception as e:
-        logger.error("Error importing Apify upload: %s", str(e))
+        logger.error("Error importing provider upload: %s", str(e))
         raise HTTPException(status_code=500, detail="Internal server error")
 
 
-def _build_import_response(apify_payload: Any, route_name: str) -> SearchResultsResponse:
-    items, query_text = _extract_apify_items_and_query(apify_payload)
+def _build_import_response(provider_payload: Any, route_name: str) -> SearchResultsResponse:
+    items, query_text = _extract_provider_items_and_query(provider_payload)
 
     if _is_provider_error(items):
         error_item = items[0]
@@ -396,8 +422,8 @@ def _build_import_response(apify_payload: Any, route_name: str) -> SearchResults
             )
             _log_response_debug(route_name, response_payload)
             return response_payload
-        logger.error("Apify provider error: %s - %s", error_code, error_desc)
-        raise HTTPException(status_code=400, detail="Invalid Apify payload")
+        logger.error("Provider error: %s - %s", error_code, error_desc)
+        raise HTTPException(status_code=400, detail="Invalid provider payload")
 
     results = [_map_provider_item(item) for item in items]
     response_payload = SearchResultsResponse(
@@ -417,9 +443,9 @@ def _response_payload_to_json(response_payload: SearchResultsResponse) -> str:
     return json.dumps(payload, ensure_ascii=False, indent=2)
 
 
-def _extract_apify_items_and_query(payload: Any) -> tuple[List[Dict[str, Any]], str]:
+def _extract_provider_items_and_query(payload: Any) -> tuple[List[Dict[str, Any]], str]:
     if isinstance(payload, list):
-        return _ensure_dict_items(payload), "apify_import"
+        return _ensure_dict_items(payload), "provider_import"
 
     if not isinstance(payload, dict):
         raise ValueError("Payload must be a JSON object or array")
@@ -441,7 +467,7 @@ def _extract_apify_items_and_query(payload: Any) -> tuple[List[Dict[str, Any]], 
         or payload.get("searchQuery")
         or payload.get("search_string")
         or payload.get("searchString")
-        or "apify_import"
+        or "provider_import"
     )
 
     return _ensure_dict_items(items_candidate), str(query_text)
@@ -451,11 +477,11 @@ def _ensure_dict_items(items: Any) -> List[Dict[str, Any]]:
     if items is None:
         return []
     if not isinstance(items, list):
-        raise ValueError("Apify payload items must be an array")
+        raise ValueError("Provider payload items must be an array")
     normalized: List[Dict[str, Any]] = []
     for item in items:
         if not isinstance(item, dict):
-            raise ValueError("Each Apify item must be a JSON object")
+            raise ValueError("Each provider item must be a JSON object")
         normalized.append(item)
     return normalized
 

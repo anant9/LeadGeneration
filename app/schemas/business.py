@@ -77,4 +77,7 @@ class SearchResultsResponse(BaseModel):
 class NaturalLanguageBusinessSearch(BaseModel):
     """Natural language business search request schema"""
 
-    query: str = Field(..., description="Natural language business search query")
+    query: str = Field(
+        ...,
+        description="Natural language business search query or website URL",
+    )
